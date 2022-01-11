@@ -89,32 +89,55 @@ export default function WebApps() {
           </div>
         </li>
         <li className="project-list">
+          <h2> App Name: Pantry</h2>
+          <p>
+            This is the app that allows you to create a shopping list aswell as take inventory of your current food supply. This app also lets you know which foods are expired and which foods are near expiration. It is seperated into 2 tabs: shopping list and pantry. For both the shopping list and pantry sections, you can add food into your list by filling out a form. please click on the button below to view and use the app.
+            <p>
+              <br />
+              Technologies used:{" "}
+              <ul>
+                <li>React</li>
+                <li>NextJS</li>                
+                <li>Node JS</li>
+              </ul>{" "}
+            </p>
+          </p>
+          <div>
+            <button>
+              <a href="https://pantry-dusky.vercel.app/">Go to App</a>
+            </button>
+            <br />
+            <button>
+              {" "}
+              <a href="https://github.com/delaine3/Pantry">
+                {" "}
+                Source Code
+              </a>
+            </button>
+          </div>
+        </li>
+        <li className="project-list">
           <h2> App Name: My Portfolio</h2>
           <p>
-            This is the app that you are currently on. I created the fractal
-            trees in the background by adapting code from{" "}
-            <button>
-              <a href="https://www.youtube.com/watch?v=axve3EgJlYI">this </a>
-            </button>
-            video. Click on the button to change the trees and background.
+            This is the app that you are currently on.
             <p>
               <br />
               Technologies used:{" "}
               <ul>
                 <li>React</li>
                 <li>NodeJS</li>
-                <li>Canvas</li>
+                <li>Next JS</li>
               </ul>{" "}
             </p>
           </p>
           <div>
             <button>
-              <a href="https://delaine-portfolio.herokuapp.com/">Heroku App</a>
+              <a href="https://my-nextjs-portfolio-pfw2o72dj-delaine3.vercel.app/">Heroku App</a>
             </button>
             <br />
             <button>
               {" "}
-              <a href="https://github.com/delaine3/Delaine-portfolio">
+              <a href="https://github.com/delaine3/my-nextjs-portfolio">
                 {" "}
                 Source Code
               </a>

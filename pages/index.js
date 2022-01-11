@@ -18,7 +18,7 @@ export default function Home() {
         <h2>Welcome to my portfolio. It is seperated into the following categories. Please click on one to view my projects.</h2>
       <div className='webapps'>
       <Link href="webApps">
-        <button className="btn edit">Web Apps</button>
+        <a className="btn edit">Web Apps</a>
       </Link>      
       </div>
     </div>

@@ -5,8 +5,9 @@ export default function Games() {
   return (
     <div className="webapps">
       <h1> Web Apps</h1>
-
+<h2>These apps are hosted on Heroku and Vercel. The ones hosted on Heroku may take a few seconds to load. </h2>
       <ul className="center">
+
         <li className="project-list">
           <h2>App Name: Story Book </h2>
           <p>
@@ -91,30 +92,24 @@ export default function Games() {
         <li className="project-list">
           <h2> App Name: My Portfolio</h2>
           <p>
-            This is the app that you are currently on. I created the fractal
-            trees in the background by adapting code from{" "}
-            <button>
-              <a href="https://www.youtube.com/watch?v=axve3EgJlYI">this </a>
-            </button>
-            video. Click on the button to change the trees and background.
+            This is the app that you are currently on. 
             <p>
               <br />
               Technologies used:{" "}
               <ul>
                 <li>React</li>
-                <li>NodeJS</li>
-                <li>Canvas</li>
+                <li>NextJs</li>
               </ul>{" "}
             </p>
           </p>
           <div>
             <button>
-              <a href="https://delaine-portfolio.herokuapp.com/">Heroku App</a>
+              <a href="https://delaine-portfolio.herokuapp.com/">Vercel App</a>
             </button>
             <br />
             <button>
               {" "}
-              <a href="https://github.com/delaine3/Delaine-portfolio">
+              <a href="https://github.com/delaine3/my-nextjs-portfolio">
                 {" "}
                 Source Code
               </a>
