@@ -9,6 +9,7 @@
 }
 
 .main {
+  background-color: rgb(170, 252, 252);
   padding: 5rem 0;
   flex: 1;
   display: flex;

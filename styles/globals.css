@@ -14,3 +14,63 @@ a {
 * {
   box-sizing: border-box;
 }
+.App {
+  text-align: center;
+  font-family: "Hepta Slab", serif;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+  z-index: 2;
+}
+button:hover {
+  opacity: 70%;
+}
+button {
+  margin: 10px;
+  background-color: #33e0ff88;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+a {
+  font-weight: bold;
+  color: #b8236d;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+h1 {
+  text-align: center;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 1%;
+  padding: 3%;
+  border: solid black 1px;
+  background-color: rgba(255, 255, 255, 0.836);
+  z-index: 2;
+}
+
+
+.webapps{
+  background-color: rgb(200, 252, 252);
+}
+p {
+  display: block;
+  margin-left: 1%;
+  left: 0px;
+}
+
+@media only screen and (min-width: 764px) {
+  .center {
+    width: 73%;
+  }
+}
