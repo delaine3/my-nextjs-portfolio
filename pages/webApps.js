@@ -49,7 +49,7 @@ export default function WebApps() {
           </ul>
         </li>
         <li className="project-list">
-          <h2>App Name: Organiser</h2>
+          <h2>App Name: Organizer</h2>
           <br />
           <p>
             This app allows user to create an account, login, logout and
