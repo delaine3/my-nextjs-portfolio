@@ -10,20 +10,17 @@ export default function WebApps() {
         <li className="project-list">
           <h2>App Name: Story Book </h2>
           <p>
-            This is an app that when finished, will allow you to create daily
-            journal posts aswell as write stories. It has a section that allows
-            you to create carachters, plots and concepts using helpful prompts.
-            Click the video option below to see a full version of how it is
-            coming along. If you would like to navigate to the app on heroku,
-            click on the go to site button. Unfortunately, the deployed Heroku
-            app does not display the database due to temporary technical
-            difficulties however it does show the frontend app. Technologies
+            This is an app that when finished, will allow you to plan out and write stories. It has a section that allows
+            you to create caracters, plots and concepts using helpful prompts.
+            Technologies
             used:
             <ul>
               <br />
               <li>MongoDB</li>
               <li>Express</li>
-              <li>React</li>
+              <li>NextJS</li>
+              <li>ReactJS</li>
+
               <li>NodeJS</li>
             </ul>{" "}
           </p>
@@ -31,16 +28,14 @@ export default function WebApps() {
             <li>
               <button>
                 {" "}
-                <a href="https://delaine-storybook-app.herokuapp.com/">
+                <a href="https://new-storybook-app.vercel.app/">
                   {" "}
-                  Heroku App (Database not displaying)
-                </a>{" "}
+                Go to web app                </a>{" "}
               </button>
             </li>
-            <li>Video of App running Locally</li>
             <li>
               <button>
-                <a href="https://github.com/delaine3/delaine-storybook-app">
+                <a href="https://github.com/delaine3/New-Storybook-App">
                   {" "}
                   Source Code
                 </a>
@@ -76,8 +71,7 @@ export default function WebApps() {
           <div>
             <button>
               <a href="https://delaine-organizer-app8.herokuapp.com/">
-                Heroku App
-              </a>
+              Go to web app              </a>
             </button>
             <br />
             <button>
@@ -104,7 +98,7 @@ export default function WebApps() {
           </p>
           <div>
             <button>
-              <a href="https://pantry-dusky.vercel.app/">Go to App</a>
+              <a href="https://pantry-dusky.vercel.app/">Go to web app</a>
             </button>
             <br />
             <button>
@@ -132,7 +126,7 @@ export default function WebApps() {
           </p>
           <div>
             <button>
-              <a href="https://my-nextjs-portfolio-pfw2o72dj-delaine3.vercel.app/">Heroku App</a>
+              <a href="https://my-nextjs-portfolio-pfw2o72dj-delaine3.vercel.app/">Go to web app</a>
             </button>
             <br />
             <button>
@@ -162,8 +156,7 @@ export default function WebApps() {
           <div>
             <button>
               <a href="https://delaine-text-formatter.herokuapp.com/">
-                Heroku App
-              </a>
+Goo to web app              </a>
             </button>
             <br />
             <button>
@@ -190,7 +183,7 @@ export default function WebApps() {
           </p>
           <div>
             <button>
-              <a href="https://delaine-calculator.herokuapp.com/">Heroku App</a>
+              <a href="https://delaine-calculator.herokuapp.com/">Go to web app</a>
             </button>
             <br />
             <button>
@@ -221,8 +214,7 @@ export default function WebApps() {
             <li>
               <button>
                 <a href="https://delaine-quote-generator.herokuapp.com/">
-                  Heroku App
-                </a>
+Go to web app                </a>
               </button>
             </li>
             <button>
