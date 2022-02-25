@@ -28,7 +28,7 @@ export default function WebApps() {
             <li>
               <button>
                 {" "}
-                <a href="https://new-storybook-app.vercel.app/">
+                <a href="https://day-dream.vercel.app/">
                   {" "}
                 Go to web app                </a>{" "}
               </button>
