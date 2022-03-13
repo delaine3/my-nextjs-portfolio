@@ -155,7 +155,7 @@ export default function WebApps() {
           </p>
           <div>
             <button>
-              <a href=https://text-formatter-zeta.vercel.app/">
+              <a href="https://text-formatter-zeta.vercel.app/">
 Go to web app              </a>
             </button>
             <br />
@@ -183,7 +183,7 @@ Go to web app              </a>
           </p>
           <div>
             <button>
-              <a href=https://calculator-mu-ten.vercel.app/">Go to web app</a>
+              <a href="https://calculator-mu-ten.vercel.app/">Go to web app</a>
             </button>
             <br />
             <button>
