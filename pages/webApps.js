@@ -155,12 +155,12 @@ export default function WebApps() {
           </p>
           <div>
             <button>
-              <a href="https://delaine-text-formatter.herokuapp.com/">
-Goo to web app              </a>
+              <a href=https://text-formatter-zeta.vercel.app/">
+Go to web app              </a>
             </button>
             <br />
             <button>
-              <a href="https://github.com/delaine3/Delaine-Text-Formatter">
+              <a href="https://github.com/delaine3/Text_Formatter">
                 {" "}
                 Source Code
               </a>
@@ -183,11 +183,11 @@ Goo to web app              </a>
           </p>
           <div>
             <button>
-              <a href="https://delaine-calculator.herokuapp.com/">Go to web app</a>
+              <a href=https://calculator-mu-ten.vercel.app/">Go to web app</a>
             </button>
             <br />
             <button>
-              <a href="https://github.com/delaine3/delaine-calculator">
+              <a href="https://github.com/delaine3/calculator">
                 {" "}
                 Source Code
               </a>
