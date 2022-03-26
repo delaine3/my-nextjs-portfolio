@@ -4,15 +4,8 @@ import React from "react";
 export default function WebApps() {
   return (
     <div >
-      <div className="clouds">
-      <div className="cloud"></div>
-      <div className="cloud2"></div>
-      <div className="cloud3"></div>
-
-      </div>
+     
    <div className="webapps">
-   <img className="h1-butterflies1" src="https://www.animatedimages.org/data/media/291/animated-butterfly-image-0082.gif" border="0" alt="animated-butterfly-image-0082" />
-    <img className="h1-butterflies2" src="https://www.animatedimages.org/data/media/291/animated-butterfly-image-0082.gif" border="0" alt="animated-butterfly-image-0082" />
     <h1> Web Apps</h1>
 
       <ul className="center">
