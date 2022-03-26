@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-image: radial-gradient(yellow 5%, orange 15%,rgb(255, 196, 0) 25%, rgb(208, 243, 255) 35%,rgb(192, 235, 248) 45%, rgb(126, 222, 252) 55%, rgb(113, 209, 238) 65%);
+
 }
 
 a {
@@ -12,11 +15,14 @@ a {
 }
 
 * {
-  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+   box-sizing: border-box;
+   text-shadow: 10px 10px 19px #ffffff;
+
 }
 .App {
   text-align: center;
-  font-family: "Hepta Slab", serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .center {
   display: flex;
@@ -26,51 +32,260 @@ a {
   z-index: 2;
 }
 button:hover {
-  opacity: 70%;
+  opacity: 90%;
+  background-color: #ff9900;
+  color: aliceblue;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
+
+
 }
 button {
   margin: 10px;
-  background-color: #33e0ff88;
+  background-color: #ffffffbd;
   padding: 10px 20px;
   border-radius: 20px;
+  font-size: larger;
+
+}
+.clouds{
+  position: absolute;
+  display: flex;
+  align-items: right;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+p{
+  font-size: larger;
+  text-shadow: 10px 10px 19px #ffffff;
+
+}
+a:hover{
+  color: #ffffff;
+
 }
 a {
   font-weight: bold;
-  color: #b8236d;
+  color: rgb(236, 154, 0);
   text-decoration: none;
 }
-li {
+
+ .project-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
   z-index: 2;
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
+
 }
 h1 {
   text-align: center;
+font-size: 4vw;
+  
+}
+.h1-butterflies1{
+  float: right;
+  transform: scaleX(-1);
+
+}
+.h1-butterflies2{
+  float: left;
+
+}
+
+.h1-butterflies1,
+.h1-butterflies2
+{
+  transform: scale(2); /* Equal to scaleX(0.7) scaleY(0.7) */
+
+
 }
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 1.5rem;
   text-align: left;
-  margin: 1%;
-  padding: 3%;
-  border: solid black 1px;
-  background-color: rgba(255, 255, 255, 0.836);
-  z-index: 2;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 45%;
 }
 
+.project-list:hover{
+  color: #080808;
+  box-shadow: 0 0 10px 10px #ff69c5;
 
+  font-size: large;
+  background: radial-gradient(at 0% 10%, rgb(157, 237, 252) 10%, rgb(18, 225, 255) 50%, #aef6ff 71%);
+}
 .webapps{
-  background-color: rgb(200, 252, 252);
+  
+  padding: 5%;
+  z-index: 9;
+  position: relative;
+
 }
 p {
   display: block;
-  margin-left: 1%;
+  margin: 3%;
   left: 0px;
 }
 
-@media only screen and (min-width: 764px) {
-  .center {
-    width: 73%;
+h2{
+  font-family: 'Bubbler One', sans-serif;
+
+}
+
+.cloud2{ 
+  position: absolute;
+   margin-top:170px;
+   width:350px;
+   height:130px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+   border-radius:100px;
+   animation-name: cloud2;
+   animation-duration: 34s;
+   animation-iteration-count: infinite;
+ 
+}
+.cloud2::after, .cloud2::before{
+    position: relative;
+    content:"";
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud2::after{
+    width:190px;
+    height:160px;
+    top:-120px;
+    left:-120px;
+}
+
+.cloud2::before{
+  box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+  width:158px;
+  height:176px;
+  top: -120px;
+  left:199px;
+}
+
+@keyframes cloud2{
+  from {
+    right: 0px;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    right: -900px;
+    opacity: 0;
   }
 }
+
+.cloud{ 
+  position: absolute;
+   margin-top:370px;
+   width:360px;
+   height:130px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+   border-radius:100px;
+   animation-name: cloud;
+   animation-duration: 34s;
+   animation-iteration-count: infinite;
+ 
+}
+.cloud::after, .cloud::before{
+    position: relative;
+    content:"";
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud::after{
+    width:190px;
+    height:180px;
+    top:-150px;
+    left:-110px;
+}
+
+.cloud::before{
+  box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+  width:158px;
+  height:176px;
+  top: -120px;
+  left:199px;
+}
+
+@keyframes cloud{
+  from {
+    right: 500px;
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    right: -1600px;
+    opacity: 0;
+  }
+}
+
+
+
+
+.cloud3{ 
+  position: absolute;
+   margin-top:170px;
+   width:360px;
+   height:130px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+   border-radius:100px;
+   animation-name: cloud3;
+   animation-duration: 43s;
+   animation-iteration-count: infinite;
+   animation-delay: 2s;
+
+}
+.cloud3::after, .cloud3::before{
+    position: relative;
+    content:"";
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+}
+.cloud3::after{
+    width:190px;
+    height:180px;
+    top:-150px;
+    left:-110px;
+}
+
+.cloud3::before{
+  box-shadow: 10px 10px rgba(73, 93, 95, 0.2);
+  width:158px;
+  height:166px;
+  top: -120px;
+  left:199px;
+}
+
+@keyframes cloud3{
+  from {
+    right: 400px;
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    right: -2000px;
+    opacity: 0;
+  }
+}
+
+
+
+
+

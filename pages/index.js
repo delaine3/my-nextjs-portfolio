@@ -16,9 +16,9 @@ export default function Home() {
       <div className="center">
         <h1>Delaine Abner</h1>
         <h2>Welcome to my portfolio. It is seperated into the following categories. Please click on one to view my projects.</h2>
-      <div className='webapps'>
+      <div >
       <Link href="webApps">
-        <a className="btn edit">Web Apps</a>
+        <button >Web Apps</button>
       </Link>      
       </div>
     </div>
