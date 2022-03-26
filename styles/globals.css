@@ -115,7 +115,6 @@ font-size: 4vw;
 .project-list:hover{
   color: #080808;
   box-shadow: 0 0 10px 10px #ff69c5;
-
   font-size: large;
   background: radial-gradient(at 0% 10%, rgb(157, 237, 252) 10%, rgb(18, 225, 255) 50%, #aef6ff 71%);
 }

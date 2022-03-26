@@ -135,7 +135,9 @@ Go to web app              </a>
               Technologies used:{" "}
               <ul>
                 <li>React</li>
+                <li>Redux</li>
                 <li>NodeJS</li>
+                
               </ul>{" "}
             </p>
           </p>
@@ -148,6 +150,26 @@ Go to web app              </a>
                 Source Code
               </a>
             </button>
+        </li>
+        <li className="project-list">
+          <h2> App Name: Drum Machine </h2>
+          <p>
+            This app allows you to play drum sounds using an interactive ui.
+            <br />
+            <p>
+              Technologies used:{" "}
+              <ul>
+                <li>React</li>
+                <li>Redux</li>
+                <li>NodeJS</li>
+                
+              </ul>{" "}
+            </p>
+          </p>
+            <button>
+              <a href="https://codepen.io/Delaine/pen/eYRNBra?editors=1010">Go to app</a>
+            </button>
+           
         </li>
         <li className="project-list">
           <h2> App Name: Random Quote Generator </h2>
