@@ -235,6 +235,52 @@ Go to web app                </a>
           </ul>
         </li>
         <li className="project-list">
+          <h2> App Name: Simple website.</h2>
+          <br />
+          <div>
+            <p>
+              This is simple website created using simple HTML and CSS. All information in the paragraphs was copied verbatim from : https://time.com/collection/guide-to-happiness/4791285/bond-with-people/ 
+              <p>
+                Technologies used:{" "}
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>{" "}
+              </p>
+            </p>
+          </div>
+          <ul>
+              <button>
+                <a href="https://codepen.io/Delaine/pen/NWdZmyW">
+Go to website codepen                </a>
+              </button>
+           
+          </ul>
+        </li>
+        <li className="project-list">
+          <h2> App Name: Simple survey form website.</h2>
+          <br />
+          <div>
+            <p>
+              This is simple survey form website created using simple HTML and CSS.  
+              <p>
+                Technologies used:{" "}
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>{" "}
+              </p>
+            </p>
+          </div>
+          <ul>
+              <button>
+                <a href="https://codepen.io/Delaine/pen/oNBroGY">
+Go to website codepen                </a>
+              </button>
+           
+          </ul>
+        </li>
+        <li className="project-list">
           <h2>App Name: Organizer</h2>
           <br />
           <p>
