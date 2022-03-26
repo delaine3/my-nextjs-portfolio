@@ -9,7 +9,7 @@
 }
 
 .main {
-  background-color: rgb(170, 252, 252);
+  background-image: radial-gradient(yellow 5%, orange 15%,rgb(255, 196, 0) 25%, rgb(208, 243, 255) 35%,rgb(192, 235, 248) 45%, rgb(126, 222, 252) 55%, rgb(113, 209, 238) 65%);
   padding: 5rem 0;
   flex: 1;
   display: flex;
