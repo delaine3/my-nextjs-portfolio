@@ -61,6 +61,8 @@ export default function WebApps() {
                 <li>React</li>
                 <li>NextJS</li>                
                 <li>Node JS</li>
+                <li>MongoDB</li>
+
               </ul>{" "}
             </p>
           </p>
