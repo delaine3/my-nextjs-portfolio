@@ -9,7 +9,7 @@ export default function WebProjects() {
         <h1> Web Projects</h1>
 
         <ul className="center">
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Story Book </h2>
             <p>
               This is app allows you to create and save characters, plots and perform writing excercises through helpful prompts. 
@@ -40,7 +40,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Memory Game </h2>
             <p>
               This is a game where you have to turn over different tiles and try to find matching tiles. You get a point every time you uncover a matching pair and lose half a point if your pair does not match. If you win the game, you can input your name and save your score. The scores on the leader board are arranged alphabetically.
@@ -72,7 +72,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Pantry</h2>
             <p>
               This is the app that allows you to create a shopping list aswell
@@ -103,7 +103,7 @@ export default function WebProjects() {
               </button>
             </div>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: My Portfolio</h2>
             <p>
               This is the site that you are currently on.
@@ -125,7 +125,7 @@ export default function WebProjects() {
               </a>
             </button>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Text Formatter</h2>
             <br />
             <p>
@@ -154,7 +154,7 @@ export default function WebProjects() {
               </button>
             </div>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Calculator </h2>
             <p>
               This app allows you to add, subtract, multiply and divide numbers.
@@ -176,7 +176,7 @@ export default function WebProjects() {
               <a href="https://github.com/delaine3/calculator"> Source Code</a>
             </button>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2>Name: Drum Machine </h2>
             <p>
               This app allows you to play drum sounds using an interactive ui.
@@ -196,7 +196,7 @@ export default function WebProjects() {
               </a>
             </button>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Markdown Preview </h2>
             <p>
               This app allows you to type text and view it as a formatted
@@ -214,7 +214,7 @@ export default function WebProjects() {
               <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to app</a>
             </button>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Random Quote Generator </h2>
             <br />
             <div>
@@ -238,7 +238,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2>Name: Achievement Tracker </h2>
             <br />
             <div>
@@ -268,7 +268,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2> Name: Timer App </h2>
             <br />
             <div>
@@ -298,7 +298,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2>Name: Simple website.</h2>
             <br />
             <div>
@@ -323,7 +323,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2>Name: Simple survey form website.</h2>
             <br />
             <div>
@@ -347,7 +347,7 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="project-list">
             <h2>Name: Organizer</h2>
             <br />
             <p>
