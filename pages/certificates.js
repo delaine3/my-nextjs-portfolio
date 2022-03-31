@@ -3,7 +3,7 @@ import React from "react";
 //This is a function that displays my web apps
 export default function Games() {
   return (
-    <div className="webapps">
+    <div className="webProjects">
       <h1> Certificatess</h1>
       <h2>These are the certificates I have attained thus far. </h2>
       <ul className="center">

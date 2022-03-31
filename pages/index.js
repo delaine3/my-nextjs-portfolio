@@ -19,7 +19,7 @@ export default function Home() {
             categories. Please click on one to view my projects.
           </h2>
           <div>
-            <Link href="webApps">
+            <Link href="webProjects">
               <button>Web Apps</button>
             </Link>
             <Link href="certificates">
