@@ -2,58 +2,50 @@ import React from "react";
 
 //This is a function that displays my web apps
 export default function WebProjects() {
-  
   return (
     <div>
       <div className="webProjects">
         <h1> Web Projects</h1>
-
         <ul className="center">
           <li id="project-list">
             <h2> Name: Story Book </h2>
             <p>
-              This is app allows you to create and save characters, plots and perform writing excercises through helpful prompts. 
+              This is app allows you to create and save characters, plots and
+              perform writing excercises through helpful prompts.
               <h3>Technologies used:</h3>
               <ul>
-                <br />
                 <li>MongoDB</li>
                 <li>Express</li>
-                <li>NextJS</li>
                 <li>ReactJS</li>
-
+                <li>NextJS</li>
                 <li>NodeJS</li>
               </ul>{" "}
             </p>
             <ul>
               <button>
                 {" "}
-                <a href="https://day-dream.vercel.app/">
-                  {" "}
-                  Go to web app{" "}
-                </a>{" "}
+                <a href="https://day-dream.vercel.app/"> Go to web app </a>{" "}
               </button>
               <button>
-                <a href="https://github.com/delaine3/dayDream">
-                  {" "}
-                  Source Code
-                </a>
+                <a href="https://github.com/delaine3/dayDream"> Source Code</a>
               </button>
             </ul>
           </li>
           <li id="project-list">
             <h2> Name: Memory Game </h2>
             <p>
-              This is a game where you have to turn over different tiles and try to find matching tiles. You get a point every time you uncover a matching pair and lose half a point if your pair does not match. If you win the game, you can input your name and save your score. The scores on the leader board are arranged alphabetically.
+              This is a game where you have to turn over different tiles and try
+              to find matching tiles. You get a point every time you uncover a
+              matching pair and lose half a point if your pair does not match.
+              If you win the game, you can input your name and save your score.
+              The scores on the leader board are arranged alphabetically.
               <h3>Technologies used:</h3>
-
               <ul>
-                <br />
                 <li>MongoDB</li>
                 <li>Express</li>
                 <li>ReactJS</li>
                 <li>NodeJS</li>
                 <li>NextJS</li>
-
               </ul>{" "}
             </p>
             <ul>
@@ -83,13 +75,13 @@ export default function WebProjects() {
               into your list by filling out a form. please click on the button
               below to view and use the app.
               <p>
-              <h3>Technologies used:</h3>
-
+                <h3>Technologies used:</h3>
                 <ul>
-                  <li>React</li>
-                  <li>NextJS</li>
-                  <li>Node JS</li>
-                  <li>MongoDB</li>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>NextJS</li>
                 </ul>{" "}
               </p>
             </p>
@@ -108,8 +100,7 @@ export default function WebProjects() {
             <p>
               This is the site that you are currently on.
               <p>
-              <h3>Technologies used:</h3>
-
+                <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
                   <li>NodeJS</li>
@@ -133,7 +124,7 @@ export default function WebProjects() {
               allows the user to remove carachters, seperate words by
               charachter, enclose strings in carachters and remove duplicates.
               <p>
-              <h3>Technologies used:</h3>
+                <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
                   <li>NodeJS</li>
@@ -161,11 +152,14 @@ export default function WebProjects() {
               It has an interactive, color coded calculator UI.
               <br />
               <p>
-              <h3>Technologies used:</h3>
+                <h3>Technologies used:</h3>
                 <ul>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>NodeJS</li>
+                  <li>MongoDB</li>
+                <li>Express</li>
+                <li>ReactJS</li>
+                <li>Redux</li>
+                <li>NodeJS</li>
+                <li>NextJS</li>
                 </ul>{" "}
               </p>
             </p>
@@ -182,7 +176,7 @@ export default function WebProjects() {
               This app allows you to play drum sounds using an interactive ui.
               <br />
               <p>
-              <h3>Technologies used:</h3>
+                <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
@@ -203,7 +197,7 @@ export default function WebProjects() {
               preview.
               <br />
               <p>
-              <h3>Technologies used:</h3>
+                <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
                   <li>NodeJS</li>
@@ -222,7 +216,7 @@ export default function WebProjects() {
                 This is an app allows you to generate random quotes and change
                 the application background
                 <p>
-                <h3>Technologies used:</h3>
+                  <h3>Technologies used:</h3>
                   <ul>
                     <li>React</li>
                     <li>NodeJS</li>
@@ -246,7 +240,7 @@ export default function WebProjects() {
                 This is an app allows you to input and save your daily
                 achievements to keep you motivated.
                 <p>
-                <h3>Technologies used:</h3>
+                  <h3>Technologies used:</h3>
                   <ul>
                     <li>React</li>
                     <li>NodeJS</li>
@@ -276,7 +270,7 @@ export default function WebProjects() {
                 This is an app similar to the pomodoro timer. Users can set a
                 time to countdown from aswell as a break.
                 <p>
-                <h3>Technologies used:</h3>
+                  <h3>Technologies used:</h3>
                   <ul>
                     <li>React</li>
                     <li>NodeJS</li>
@@ -304,10 +298,13 @@ export default function WebProjects() {
             <div>
               <p>
                 This is simple website created using simple HTML and CSS. All
-                information in the paragraphs was copied verbatim from :
-                https://time.com/collection/guide-to-happiness/4791285/bond-with-people/
+                information in the paragraphs was copied verbatim from
+                <br />
+                <a>
+                  https://time.com/collection/guide-to-happiness/4791285/bond-with-people/
+                </a>
                 <p>
-                <h3>Technologies used:</h3>
+                  <h3>Technologies used:</h3>
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -331,7 +328,7 @@ export default function WebProjects() {
                 This is simple survey form website created using simple HTML and
                 CSS.
                 <p>
-                <h3>Technologies used:</h3>
+                  <h3>Technologies used:</h3>
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -362,7 +359,7 @@ export default function WebProjects() {
                 <li>Shows and movies to watch</li>
               </ul>
               <p>
-              <h3>Technologies used:</h3>
+                <h3>Technologies used:</h3>
                 <ul>
                   <li>Firebase Authentication</li>
                   <li>Firestore Databse</li>
