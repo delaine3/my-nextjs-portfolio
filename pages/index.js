@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 import Link from "next/link";
-
 
 export default function Home() {
   return (
@@ -13,21 +12,22 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <div className="center">
-        <h1>Delaine Abner</h1>
-        <h2>Welcome to my portfolio. It is seperated into the following categories. Please click on one to view my projects.</h2>
-      <div >
-      <Link href="webApps">
-        <button >Web Apps</button>
-      </Link>      
-      </div>
-    </div>
-
-
-          
+        <div className="center">
+          <h1>Delaine Abner</h1>
+          <h2>
+            Welcome to my portfolio. It is seperated into the following
+            categories. Please click on one to view my projects.
+          </h2>
+          <div>
+            <Link href="webApps">
+              <button>Web Apps</button>
+            </Link>
+            <Link href="certificates">
+              <button>Certificates</button>
+            </Link>
+          </div>
+        </div>
       </main>
-
-
     </div>
-  )
+  );
 }

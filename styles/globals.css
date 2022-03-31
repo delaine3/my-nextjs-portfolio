@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Source+Sans+Pro&display=swap");
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background-image: radial-gradient(yellow 5%, orange 15%,rgb(255, 196, 0) 25%, rgb(208, 243, 255) 35%,rgb(192, 235, 248) 45%, rgb(126, 222, 252) 55%, rgb(113, 209, 238) 65%);
-
+  font-family: "Montserrat", sans-serif;
+  background-image: radial-gradient(
+    yellow 5%,
+    orange 15%,
+    rgb(255, 196, 0) 25%,
+    rgb(208, 243, 255) 35%,
+    rgb(192, 235, 248) 45%,
+    rgb(126, 222, 252) 55%,
+    rgb(113, 209, 238) 65%
+  );
 }
 
 a {
@@ -15,14 +22,13 @@ a {
 }
 
 * {
-  font-family: 'Source Sans Pro', sans-serif;
-   box-sizing: border-box;
-   text-shadow: 10px 10px 19px #ffffff;
-
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  text-shadow: 10px 10px 19px #ffffff;
 }
 .App {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .center {
   display: flex;
@@ -36,8 +42,6 @@ button:hover {
   background-color: #ff9900;
   color: aliceblue;
   box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
-
-
 }
 button {
   margin: 10px;
@@ -45,9 +49,8 @@ button {
   padding: 10px 20px;
   border-radius: 20px;
   font-size: larger;
-
 }
-.clouds{
+.clouds {
   position: absolute;
   display: flex;
   align-items: right;
@@ -55,14 +58,12 @@ button {
   flex-wrap: wrap;
 }
 
-p{
+p {
   font-size: larger;
   text-shadow: 10px 10px 19px #ffffff;
-
 }
-a:hover{
+a:hover {
   color: #ffffff;
-
 }
 a {
   font-weight: bold;
@@ -70,35 +71,21 @@ a {
   text-decoration: none;
 }
 
- .project-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  z-index: 2;
-  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
-
-}
 h1 {
   text-align: center;
-font-size: 4vw;
-  
+  font-size: 4vw;
 }
-.h1-butterflies1{
+.h1-butterflies1 {
   float: right;
   transform: scaleX(-1);
-
 }
-.h1-butterflies2{
+.h1-butterflies2 {
   float: left;
-
 }
 
 .h1-butterflies1,
-.h1-butterflies2
-{
+.h1-butterflies2 {
   transform: scale(2); /* Equal to scaleX(0.7) scaleY(0.7) */
-
-
 }
 .project-list {
   margin: 1rem;
@@ -108,22 +95,33 @@ font-size: 4vw;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
 }
-
-.project-list:hover{
+.certificate-list {
+  list-style: none;
+  float: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+img {
+  margin: auto;
+  width: 200%;
+}
+.project-list:hover {
   color: #080808;
   box-shadow: 0 0 10px 10px #ff69c5;
   font-size: large;
-  background: radial-gradient(at 0% 10%, rgb(157, 237, 252) 10%, rgb(18, 225, 255) 50%, #aef6ff 71%);
+  background: radial-gradient(
+    at 0% 10%,
+    rgb(157, 237, 252) 10%,
+    rgb(18, 225, 255) 50%,
+    #aef6ff 71%
+  );
 }
-.webapps{
-  
+.webapps {
   padding: 5%;
   z-index: 9;
   position: relative;
-
 }
 p {
   display: block;
@@ -131,8 +129,6 @@ p {
   left: 0px;
 }
 
-h2{
-  font-family: 'Bubbler One', sans-serif;
-
+h2 {
+  font-family: "Bubbler One", sans-serif;
 }
-
