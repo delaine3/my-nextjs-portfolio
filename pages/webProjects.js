@@ -8,7 +8,7 @@ export default function WebProjects() {
         <h1> Web Projects</h1>
         <ul className="center">
           <li id="project-list">
-            <h2> Name: Story Book </h2>
+            <h1> Name: Story Book </h1>
             <p>
               This is app allows you to create and save characters, plots and
               perform writing excercises through helpful prompts.
@@ -32,7 +32,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2> Name: Memory Game </h2>
+            <h1> Name: Memory Game </h1>
             <p>
               This is a game where you have to turn over different tiles and try
               to find matching tiles. You get a point every time you uncover a
@@ -65,7 +65,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2> Name: Pantry</h2>
+            <h1> Name: Pantry</h1>
             <p>
               This is the app that allows you to create a shopping list aswell
               as take inventory of your current food supply. This app also lets
@@ -96,7 +96,7 @@ export default function WebProjects() {
             </div>
           </li>
           <li id="project-list">
-            <h2> Name: My Portfolio</h2>
+            <h1> Name: My Portfolio</h1>
             <p>
               This is the site that you are currently on.
               <p>
@@ -117,7 +117,7 @@ export default function WebProjects() {
             </button>
           </li>
           <li id="project-list">
-            <h2> Name: Text Formatter</h2>
+            <h1> Name: Text Formatter</h1>
             <br />
             <p>
               This site was created for people who are trying to clean data. It
@@ -146,7 +146,7 @@ export default function WebProjects() {
             </div>
           </li>
           <li id="project-list">
-            <h2> Name: Calculator </h2>
+            <h1> Name: Calculator </h1>
             <p>
               This app allows you to add, subtract, multiply and divide numbers.
               It has an interactive, color coded calculator UI.
@@ -170,7 +170,7 @@ export default function WebProjects() {
             </button>
           </li>
           <li id="project-list">
-            <h2>Name: Drum Machine </h2>
+            <h1>Name: Drum Machine </h1>
             <p>
               This app allows you to play drum sounds using an interactive ui.
               <br />
@@ -190,7 +190,7 @@ export default function WebProjects() {
             </button>
           </li>
           <li id="project-list">
-            <h2> Name: Markdown Preview </h2>
+            <h1> Name: Markdown Preview </h1>
             <p>
               This app allows you to type text and view it as a formatted
               preview.
@@ -208,7 +208,7 @@ export default function WebProjects() {
             </button>
           </li>
           <li id="project-list">
-            <h2> Name: Wack a mole game </h2>
+            <h1> Name: Wack a mole game </h1>
             <p>
               This a timed wack a mole game. Players are given a minute to wack as many moles as they can. During the game, they may pause and resume the game. After the game is over they are presented with a form that allows them to save their progressl.
               <br />
@@ -231,7 +231,7 @@ export default function WebProjects() {
             </button>
           </li>
           <li id="project-list">
-            <h2> Name: Random Quote Generator </h2>
+            <h1> Name: Random Quote Generator </h1>
             <br />
             <div>
               <p>
@@ -255,7 +255,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2>Name: Achievement Tracker </h2>
+            <h1>Name: Achievement Tracker </h1>
             <br />
             <div>
               <p>
@@ -285,7 +285,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2> Name: Timer App </h2>
+            <h1> Name: Timer App </h1>
             <br />
             <div>
               <p>
@@ -315,7 +315,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2>Name: Simple website.</h2>
+            <h1>Name: Simple website.</h1>
             <br />
             <div>
               <p>
@@ -343,7 +343,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2>Name: Simple survey form website.</h2>
+            <h1>Name: Simple survey form website.</h1>
             <br />
             <div>
               <p>
@@ -367,7 +367,7 @@ export default function WebProjects() {
             </ul>
           </li>
           <li id="project-list">
-            <h2>Name: Organizer</h2>
+            <h1>Name: Organizer</h1>
             <br />
             <p>
               This app allows user to create an account, login, logout and
