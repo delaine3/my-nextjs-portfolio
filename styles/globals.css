@@ -15,12 +15,36 @@ body {
     rgb(113, 209, 238) 65%
   );
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+@media only screen and (max-width: 600px) {
+  .project-list {
+    width: max-content;
+    background-color: #75d3f86c;
+    margin: 1vw;
+    font-size: larger;
+    padding: 1.5vw;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 0.5vw solid #a0a0a0;
+    border-radius: 1vw;
+  }
+  
 }
+@media only screen and (min-width: 600px) {
+  .project-list {
+    width: 45%;
 
+    background-color: #ffffff46;
+    margin: 1vw;
+    padding: 1.5vw;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 0.5vw solid #a0a0a0;
+    border-radius: 1vw;
+  }
+  
+}
 * {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
@@ -65,24 +89,14 @@ h1 {
   font-size: 1.5vw;
 }
 
-#project-list {
-  background-color: #ffffff46;
-  margin: 1vw;
-  padding: 1.5vw;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 0.5vw solid #a0a0a0;
-  border-radius: 1vw;
-  width: 45%;
-}
+
 .certificate-list {
   list-style: none;
   float: center;
   padding: 1.5vw;
   text-align: center;
 }
-#project-list li{
+.project-list li{
   list-style:circle;
 
 }
@@ -91,7 +105,7 @@ h1 {
 
 }
 
-#project-list:hover {
+.project-list:hover {
   color: #080808;
   box-shadow: 0 0 1vw 1vw #ff69c5;
   background: radial-gradient(
@@ -101,7 +115,7 @@ h1 {
     #aef6ff9d 71%
   );
 }
-#project-list p{
+.project-list p{
   font-size: 1.2vw;
 
 }
