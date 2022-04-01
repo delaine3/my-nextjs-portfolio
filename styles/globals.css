@@ -24,7 +24,7 @@ a {
 * {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
-  text-shadow: 10px 10px 19px #ffffff;
+  text-shadow: 1vw 1vw 1vw #ffffff;
 }
 .App {
   text-align: center;
@@ -41,14 +41,14 @@ button:hover {
   opacity: 90%;
   background-color: #ff9900;
   color: aliceblue;
-  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
-  margin: 10px;
+  margin: 1vw;
   background-color: #ffffffbd;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: larger;
+  padding: 1vw 1vw;
+  border-radius: 2vw;
+  font-size: 1vw;
 }
 .clouds {
   position: absolute;
@@ -73,20 +73,9 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 4vw;
-}
-.h1-butterflies1 {
-  float: right;
-  transform: scaleX(-1);
-}
-.h1-butterflies2 {
-  float: left;
+  font-size: 2vw;
 }
 
-.h1-butterflies1,
-.h1-butterflies2 {
-  transform: scale(2); /* Equal to scaleX(0.7) scaleY(0.7) */
-}
 #project-list {
   background-color: #ffffff46;
   margin: 1rem;
@@ -96,7 +85,8 @@ h1 {
   text-decoration: none;
   border: 3px solid #a0a0a0;
   border-radius: 10px;
-  width: 45%;
+  min-width:min-content;
+  max-width: 45%;
 }
 .certificate-list {
   list-style: none;
@@ -141,6 +131,3 @@ p {
   left: 0px;
 }
 
-h2 {
-  font-family: "Bubbler One", sans-serif;
-}

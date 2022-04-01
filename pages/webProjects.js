@@ -154,7 +154,6 @@ export default function WebProjects() {
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
-                  <li>MongoDB</li>
                 <li>Express</li>
                 <li>ReactJS</li>
                 <li>Redux</li>
@@ -206,6 +205,29 @@ export default function WebProjects() {
             </p>
             <button>
               <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to app</a>
+            </button>
+          </li>
+          <li id="project-list">
+            <h2> Name: Wack a mole game </h2>
+            <p>
+              This a timed wack a mole game. Players are given a minute to wack as many moles as they can. During the game, they may pause and resume the game. After the game is over they are presented with a form that allows them to save their progressl.
+              <br />
+              <p>
+                <h3>Technologies used:</h3>
+                <ul>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>NextJS</li>
+                </ul>{" "}
+              </p>
+            </p>
+            <button>
+              <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">Go to app</a>
+            </button>
+            <button>
+              <a href="https://github.com/delaine3/whack_a_mole">Go to source code</a>
             </button>
           </li>
           <li id="project-list">
