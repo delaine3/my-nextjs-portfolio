@@ -126,7 +126,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1> Name: Text Formatter</h1>
-            <br />
             <p>
               This site was created for people who are trying to clean data. It
               allows the user to remove carachters, seperate words by
@@ -158,7 +157,6 @@ export default function WebProjects() {
             <p>
               This app allows you to add, subtract, multiply and divclassNamee numbers.
               It has an interactive, color coded calculator UI.
-              <br />
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -181,7 +179,6 @@ export default function WebProjects() {
             <h1>Name: Drum Machine </h1>
             <p>
               This app allows you to play drum sounds using an interactive ui.
-              <br />
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -202,7 +199,6 @@ export default function WebProjects() {
             <p>
               This app allows you to type text and view it as a formatted
               preview.
-              <br />
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -219,7 +215,6 @@ export default function WebProjects() {
             <h1> Name: Wack a mole game </h1>
             <p>
               This a timed wack a mole game. Players are given a minute to wack as many moles as they can. During the game, they may pause and resume the game. After the game is over they are presented with a form that allows them to save their progressl.
-              <br />
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -240,7 +235,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1> Name: Random Quote Generator </h1>
-            <br />
             <div>
               <p>
                 This is an app allows you to generate random quotes and change
@@ -264,7 +258,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1>Name: Achievement Tracker </h1>
-            <br />
             <div>
               <p>
                 This is an app allows you to input and save your daily
@@ -294,7 +287,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1> Name: Timer App </h1>
-            <br />
             <div>
               <p>
                 This is an app similar to the pomodoro timer. Users can set a
@@ -324,12 +316,10 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1>Name: Simple website.</h1>
-            <br />
             <div>
               <p>
                 This is simple website created using simple HTML and CSS. All
                 information in the paragraphs was copied verbatim from
-                <br />
                 <a>
                   https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/
                 </a>
@@ -352,7 +342,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1>Name: Simple survey form website.</h1>
-            <br />
             <div>
               <p>
                 This is simple survey form website created using simple HTML and
@@ -376,7 +365,6 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <h1>Name: Organizer</h1>
-            <br />
             <p>
               This app allows user to create an account, login, logout and
               organise their subscriptions and to do lists. There is a component
