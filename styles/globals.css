@@ -35,7 +35,6 @@ a {
   flex-wrap: wrap;
   margin: auto;
   width: 90%;
-  z-index: 2;
 }
 button:hover {
   opacity: 90%;
@@ -44,23 +43,13 @@ button:hover {
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
-  margin: 1vw;
   background-color: #ffffffbd;
-  padding: 1vw 1vw;
   border-radius: 2vw;
-  font-size: 1vw;
-}
-.clouds {
-  position: absolute;
-  display: flex;
-  align-items: right;
-  justify-content: left;
-  flex-wrap: wrap;
 }
 
 p {
   font-size: 1vw;
-  text-shadow: 10px 10px 19px #ffffff;
+  text-shadow: 1.5vw 1.5vw 1.5vw #ffffff;
 }
 a:hover {
   color: #ffffff;
@@ -73,24 +62,24 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
-#project-list{
+#project-list {
   background-color: #ffffff46;
+  margin: 1vw;
+  padding: 1.5vw;
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 3px solid #a0a0a0;
-  border-radius: 10px;
-  margin: 1vw;
-  max-width:45%;
-  padding: 1vw;
+  border: 0.5vw solid #a0a0a0;
+  border-radius: 1vw;
+  width: 45%;
 }
 .certificate-list {
   list-style: none;
   float: center;
-  padding: 1.5rem;
+  padding: 1.5vw;
   text-align: center;
 }
 #project-list li{
@@ -101,13 +90,10 @@ h1 {
   list-style:none;
 
 }
-img {
-  margin: auto;
-  width: 200%;
-}
+
 #project-list:hover {
   color: #080808;
-  box-shadow: 0 0 10px 10px #ff69c5;
+  box-shadow: 0 0 1vw 1vw #ff69c5;
   background: radial-gradient(
     at 0% 10%,
     rgba(157, 238, 252, 0.719) 10%,
@@ -115,10 +101,12 @@ img {
     #aef6ff9d 71%
   );
 }
+#project-list p{
+  font-size: 1.2vw;
 
+}
 .webProjects {
   padding: 5%;
-  z-index: 9;
   position: relative;
 }
 p {
@@ -127,3 +115,6 @@ p {
   left: 0px;
 }
 
+h2 {
+  font-family: "Bubbler One", sans-serif;
+}

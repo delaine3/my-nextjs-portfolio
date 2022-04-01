@@ -4,6 +4,8 @@ import React from "react";
 export default function WebProjects() {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
       <div className="webProjects">
         <h1> Web Projects</h1>
         <ul className="center">
