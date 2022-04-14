@@ -92,7 +92,7 @@ button {
 a:hover {
   color: #ffffff;
 }
-a {
+button a {
   font-weight: bold;
   color: rgb(236, 154, 0);
   text-decoration: none;
