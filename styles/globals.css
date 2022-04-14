@@ -19,6 +19,7 @@ body {
 @media only screen and (max-width: 600px) {
   .project-list {
     width: 150%;
+    height: fit-content;
     background-color: #ffffffaf;
     margin: 1vw;
     padding: 1.5vw;
