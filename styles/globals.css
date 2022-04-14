@@ -83,6 +83,7 @@ button:hover {
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
+  padding: 1vw;
   background-color: #ffffffbd;
   border-radius: 2vw;
 }
@@ -95,6 +96,7 @@ a {
   font-weight: bold;
   color: rgb(236, 154, 0);
   text-decoration: none;
+  font-size: 1vw;
 }
 
 h1 {

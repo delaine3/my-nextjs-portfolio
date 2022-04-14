@@ -256,6 +256,28 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
+          <li  className="project-list">
+            <h1> Name: Connect 4 game </h1>
+            <p>
+              This a timed connect 4 game. Players are given a minute to connect 4 dots in a vertical, horizontal or diagonal line. The first player to connect 4 dots wins. If no player connects 4 dots within the alloted time, the game ends in a draw.
+              <p>
+                <h3>Technologies used:</h3>
+                <ul>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>NextJS</li>
+                </ul>{" "}
+              </p>
+            </p>
+            <button>
+              <a href="https://connect-four-game.vercel.app/">Go to app</a>
+            </button>
+            <button>
+              <a href="https://github.com/delaine3/Connect_Four_Game">Go to source code</a>
+            </button>
+          </li>
           <li className="project-list">
             <h1>Name: Achievement Tracker </h1>
             <div>
