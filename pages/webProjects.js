@@ -46,6 +46,26 @@ export default function WebProjects() {
               matching pair and lose half a point if your pair does not match.
               If you win the game, you can input your name and save your score.
               The scores on the leader board are arranged alphabetically.
+              <p>
+                  {" "}
+                  Some of the ideas from my game are adapted from the
+                  the following
+                  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                    FreeCodeCamp Tutorial Video.
+                  </a>{" "}
+                  You can find the original source code of this tutorial in the
+                  following
+                  <a href="https://github.com/kubowania/memory-game">
+                    Github repo
+                  </a>{" "}
+                  The original source contains an MIT license which allows
+                  anyone to use it. The game in the{" "}
+                  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                    FreeCodeCamp Tutorial Video
+                  </a>{" "}
+                  is made using Vanilla Javascript and minimal css. Mine is
+                  created using the technologies below.
+                </p>
               <h3>Technologies used:</h3>
               <ul>
                 <li>MongoDB</li>
@@ -218,21 +238,25 @@ export default function WebProjects() {
               resume the game. After the game is over they are presented with a
               form that allows them to save their progress.
               <p>
-                  {" "}
-                  Some of the code or ideas from my game are adapted from the following
-                  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                    FreeCodeCamp Tutorial Video.
-                  </a>{" "}
-              You can find the original source code of this tutorial in the following
-                  <a href="https://github.com/kubowania/whac-a-mole">
-                    Github repo
-                  </a>{" "}
-                  The original source contains an MIT license which allows anyone to use it. The game in the  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                    FreeCodeCamp Tutorial Video
-                  </a> is made using vanilla javascript and
-                  minimal css. Mine is created using the technologies below.
-          
-                </p>
+                {" "}
+                Some of the code and or ideas from my game are adapted from the
+                following
+                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                  FreeCodeCamp Tutorial Video.
+                </a>{" "}
+                You can find the original source code of this tutorial in the
+                following
+                <a href="https://github.com/kubowania/whac-a-mole">
+                  Github repo
+                </a>{" "}
+                The original source contains an MIT license which allows anyone
+                to use it. The game in the{" "}
+                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                  FreeCodeCamp Tutorial Video
+                </a>{" "}
+                is made using vanilla javascript and minimal css. Mine is
+                created using the technologies below.
+              </p>
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -284,23 +308,28 @@ export default function WebProjects() {
               This a timed connect 4 game. Players are given a minute to connect
               4 dots in a vertical, horizontal or diagonal line. The first
               player to connect 4 dots wins. If no player connects 4 dots within
-              the alloted time, the game ends in a draw. The result of the game is saved upon completion.
+              the alloted time, the game ends in a draw. The result of the game
+              is saved upon completion.
               <p>
                 <p>
                   {" "}
-                  Some of the code or ideas from my game are adapted from the the following
+                  Some of the code and or ideas from my game are adapted from the
+                  the following
                   <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
                     FreeCodeCamp Tutorial Video.
                   </a>{" "}
-              You can find the original source code of this tutorial in the following
+                  You can find the original source code of this tutorial in the
+                  following
                   <a href="https://github.com/kubowania/connect-four">
                     Github repo
                   </a>{" "}
-                  The original source contains an MIT license which allows anyone to use it. The game in the  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                  The original source contains an MIT license which allows
+                  anyone to use it. The game in the{" "}
+                  <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
                     FreeCodeCamp Tutorial Video
-                  </a> is made using Vanilla Javascript and
-                  minimal css. Mine is created using the technologies below.
-          
+                  </a>{" "}
+                  is made using Vanilla Javascript and minimal css. Mine is
+                  created using the technologies below.
                 </p>
                 <h3>Technologies used:</h3>
                 <ul>
