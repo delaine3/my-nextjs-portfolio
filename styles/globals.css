@@ -88,7 +88,9 @@ button {
   border-radius: 2vw;
 }
 
-
+h1.delaine{
+  font-size: 3vw;
+}
 a:hover {
   color: #ffffff;
 }
