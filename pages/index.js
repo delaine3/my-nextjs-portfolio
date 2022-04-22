@@ -12,7 +12,7 @@ export default function WebProjects() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="webProjects">
-<h1 className="delaine" >Delaine's Portfolio</h1>
+<h1 className="delaine" >Delaines Portfolio</h1>
         <h1>Hi, my name is Delaine. Welcome To my portfolio. All projects listed here are web projects. If you click on the "Go to web app" button of each project you will be directed to a working version of it. , most likely hosted on Heroku or Vercel.</h1>
         <ul className="center">
           <li className="project-list">
@@ -81,13 +81,13 @@ export default function WebProjects() {
                 {" "}
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
-                  Go to Delaine's version of the game{" "}
+                  Go to Delaines version of the game{" "}
                 </a>{" "}
               </button>
               <button>
                 <a href="https://github.com/delaine3/A_Memory_Game">
                   {" "}
-                  Go to Delaine's Source Code
+                  Go to Delaines Source Code
                 </a>
               </button>
             </ul>
@@ -271,12 +271,12 @@ export default function WebProjects() {
             </p>
             <button>
               <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-              Go to Delaine's version of the game
+              Go to Delaines version of the game
               </a>
             </button>
             <button>
               <a href="https://github.com/delaine3/whack_a_mole">
-              Go to Delaine's source code
+              Go to Delaines source code
               </a>
             </button>
           </li>
@@ -343,11 +343,11 @@ export default function WebProjects() {
               </p>
             </p>
             <button>
-              <a href="https://connect-four-game.vercel.app/"> Go to Delaine's version of the game</a>
+              <a href="https://connect-four-game.vercel.app/"> Go to Delaines version of the game</a>
             </button>
             <button>
               <a href="https://github.com/delaine3/Connect_Four_Game">
-              Go to Delaine's source code
+              Go to Delaines source code
               </a>
             </button>
           </li>
@@ -418,12 +418,12 @@ export default function WebProjects() {
             </p>
             <button>
               <a href="https://snake-game-five-dun.vercel.app/">
-              Go to Delaine's version of the game
+              Go to Delaines version of the game
               </a>
             </button>
             <button>
               <a href="https://github.com/delaine3/snake_game">
-              Go to Delaine's source code
+              Go to Delaines source code
               </a>
             </button>
           </li>
