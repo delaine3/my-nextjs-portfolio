@@ -380,6 +380,53 @@ export default function WebProjects() {
             </ul>
           </li>
           <li className="project-list">
+            <h1> Name:Snake game </h1>
+            <p>
+              This a snake game. The goal is to direct a snake using the up, down, left and right arrows to food withouth hitting the boundaries of the box. After the game is over the player is presented with a
+              form that allows them to save their score. There is also a page that contains a leaderboard, containing the scores of other players in descending order.
+              <p>
+                {" "}
+                Some of the code and ideas from my game are adapted from the
+                following
+                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                  FreeCodeCamp Tutorial Video.
+                </a>{" "}
+                You can find the original source code of this tutorial in the
+                following
+                <a href="https://github.com/kubowania/Nokia3310-Snake">
+                  Github repo
+                </a>{" "}
+                The original source contains an MIT license which allows anyone
+                to use it. The game in the{" "}
+                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
+                  FreeCodeCamp Tutorial Video
+                </a>{" "}
+                is made using vanilla javascript and minimal css. Mine is
+                created using the technologies below.
+              </p>
+              <p>
+                <h3>Technologies used:</h3>
+                <ul>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>ReactJS</li>
+                  <li>NodeJS</li>
+                  <li>NextJS</li>
+                </ul>{" "}
+              </p>
+            </p>
+            <button>
+              <a href="https://snake-game-five-dun.vercel.app/">
+                Go to game
+              </a>
+            </button>
+            <button>
+              <a href="https://github.com/delaine3/snake_game">
+                Go to source code
+              </a>
+            </button>
+          </li>
+          <li className="project-list">
             <h1> Name: Timer App </h1>
             <div>
               <p>
