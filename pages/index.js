@@ -13,7 +13,7 @@ export default function WebProjects() {
       </Head>
       <div className="webProjects">
 <h1 className="delaine" >Delaines Portfolio</h1>
-        <h1>Hi, my name is Delaine. Welcome To my portfolio. All projects listed here are web projects. If you click on the (Go to web app) button of each project you will be directed to a working version of it. , most likely hosted on Heroku or Vercel.</h1>
+        <h1>Hi, my name is Delaine. Welcome To my portfolio. All projects listed here are web projects. If you click on the (Go to web app) button of each project you will be directed to a working version of it. It will most likely be hosted on Heroku or Vercel. All images used are either in the public domain or require attribution. If attribution is required it will be visible in the page inwhich the image is used.</h1>
         <ul className="center">
           <li className="project-list">
             <h1> Name: Story Book </h1>
