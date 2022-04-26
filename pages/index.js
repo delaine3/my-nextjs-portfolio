@@ -42,10 +42,10 @@ export default function WebProjects() {
           <li className="project-list">
             <h1> Name: Memory Game </h1>
             <p>
-              This is a game where you have to turn over different tiles and try
-              to find matching tiles. You get a point every time you uncover a
-              matching pair and lose half a point if your pair does not match.
-              If you win the game, you can input your name and save your score.
+              In this game the player has to turn over different tiles and try
+              to find matching tiles. They get a point every time they uncover a
+              matching pair and lose half a point if their pair does not match.
+              If they win the game, they can input their name and save their score.
               The scores on the leader board are arranged alphabetically.
               <p>
                   {" "}
@@ -95,12 +95,12 @@ export default function WebProjects() {
           <li className="project-list">
             <h1> Name: Pantry</h1>
             <p>
-              This is the app that allows you to create a shopping list aswell
+              This is app that allows you to create a shopping list aswell
               as take inventory of your current food supply. This app also lets
               you know which foods are expired and which foods are near
               expiration. It is seperated into 2 tabs: shopping list and pantry.
               For both the shopping list and pantry sections, you can add food
-              into your list by filling out a form. please click on the button
+              into your list by filling out a form. Please click on the button
               below to view and use the app.
               <p>
                 <h3>Technologies used:</h3>
@@ -131,7 +131,6 @@ export default function WebProjects() {
                 <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
-                  <li>NodeJS</li>
                   <li>Next JS</li>
                 </ul>{" "}
               </p>
@@ -148,13 +147,12 @@ export default function WebProjects() {
             <h1> Name: Text Formatter</h1>
             <p>
               This site was created for people who are trying to clean data. It
-              allows the user to remove carachters, seperate words by
-              charachter, enclose strings in carachters and remove duplicates.
+              allows the user to remove charachters, seperate words by
+              charachter, enclose strings in characters and remove duplicates.
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
-                  <li>NodeJS</li>
                 </ul>{" "}
               </p>
             </p>
@@ -176,14 +174,13 @@ export default function WebProjects() {
             <h1> Name: Calculator </h1>
             <p>
               This app allows you to add, subtract, multiply and divclassNamee
-              numbers. It has an interactive, color coded calculator UI.
+              numbers. It has an interactive colorful UI.
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
                   <li>Express</li>
                   <li>ReactJS</li>
                   <li>Redux</li>
-                  <li>NodeJS</li>
                   <li>NextJS</li>
                 </ul>{" "}
               </p>
@@ -204,7 +201,6 @@ export default function WebProjects() {
                 <ul>
                   <li>React</li>
                   <li>Redux</li>
-                  <li>NodeJS</li>
                 </ul>{" "}
               </p>
             </p>
@@ -223,7 +219,6 @@ export default function WebProjects() {
                 <h3>Technologies used:</h3>
                 <ul>
                   <li>React</li>
-                  <li>NodeJS</li>
                 </ul>{" "}
               </p>
             </p>
@@ -360,8 +355,11 @@ export default function WebProjects() {
                 <p>
                   <h3>Technologies used:</h3>
                   <ul>
-                    <li>React</li>
-                    <li>NodeJS</li>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>ReactJS</li>
+                  <li>NodeJS</li>
+                  <li>NextJS</li>
                   </ul>{" "}
                 </p>
               </p>
@@ -437,7 +435,6 @@ export default function WebProjects() {
                   <h3>Technologies used:</h3>
                   <ul>
                     <li>React</li>
-                    <li>NodeJS</li>
                   </ul>{" "}
                 </p>
               </p>
