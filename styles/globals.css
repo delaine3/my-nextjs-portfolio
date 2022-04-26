@@ -31,6 +31,8 @@ body {
   } 
   h1{
     font-size: x-large;
+    width: 60%;
+    margin: auto;
   }
   p{
     font-size:100px;
