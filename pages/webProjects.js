@@ -436,7 +436,6 @@ export default function WebProjects() {
                   <h3>Technologies used:</h3>
                   <ul>
                     <li>React</li>
-                    <li>NodeJS</li>
                   </ul>{" "}
                 </p>
               </p>
