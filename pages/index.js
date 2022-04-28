@@ -502,42 +502,6 @@ export default function WebProjects() {
               </button>
             </ul>
           </li>
-          <li className="project-list">
-            <h1>Name: Organizer</h1>
-            <p>
-              This app allows user to create an account, login, logout and
-              organise their subscriptions and to do lists. There is a component
-              for each of the following:{" "}
-              <ul>
-                <li>Shows and movies to watch</li>
-                <li>Current subscriptions</li>
-                <li>Create Random Post</li>
-                <li>List of places to go</li>
-                <li>Shows and movies to watch</li>
-              </ul>
-              <p>
-                <h3>Technologies used:</h3>
-                <ul>
-                  <li>Firebase Authentication</li>
-                  <li>Firestore Databse</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>NodeJS</li>
-                </ul>{" "}
-              </p>
-            </p>
-            <button>
-              <a href="https://delaine-organizer-app8.herokuapp.com/">
-                Go to web app{" "}
-              </a>
-            </button>
-            <button>
-              <a href="https://github.com/delaine3/delaine-organizer-app">
-                {" "}
-                Source Code
-              </a>
-            </button>
-          </li>
         </ul>
       </div>
     </div>
