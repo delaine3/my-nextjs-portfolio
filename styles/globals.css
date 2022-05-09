@@ -2,7 +2,7 @@
 
 html,
 body {
-  padding: 0;
+  padding: 2.2%;
   margin: 0;
   font-family: "Montserrat", sans-serif;
   background-image: radial-gradient(
@@ -73,10 +73,17 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .center {
+  margin: auto;
+  width: 90%;
+}
+.tile-list{
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   width: 90%;
+}
+.tile-list li{
+  list-style: none;
 }
 button:hover {
   opacity: 90%;
@@ -85,9 +92,12 @@ button:hover {
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
-  padding: 1vw;
+  padding: .3vw;
+  margin:.5vw;
   background-color: #ffffffbd;
-  border-radius: 2vw;
+  border-radius: 1vw;
+  font-size: 2vw;
+
 }
 
 h1.delaine{
@@ -115,7 +125,7 @@ h1 {
   padding: 1.5vw;
   text-align: center;
 }
-.project-list li{
+#project{
   list-style:circle;
 
 }
@@ -123,6 +133,8 @@ h1 {
   list-style:none;
 
 }
+
+
 
 .project-list:hover {
   color: #080808;
