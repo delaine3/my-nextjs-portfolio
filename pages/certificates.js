@@ -2,15 +2,15 @@ import React from "react";
 import Link from 'next/link'
 
 //This is a function that displays my web apps
-export default function Games() {
+export default function Certificates() {
   return (
     <div >
-         <Link href="/">
-          <button>Home</button>
+        
+        <Link href="/">
+        <button className="home">Home</button>
         </Link>
         <div className="certificates">
-      <h1> Certificates</h1>
-      <h1>These are the certificates I have attained thus far. Clicking on them will take you to their validation page.</h1>
+     
       <ul className="center">
 
         <li className="certificate-list">

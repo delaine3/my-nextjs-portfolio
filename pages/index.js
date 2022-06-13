@@ -18,7 +18,7 @@ export default function Index() {
         <ul className="">
           <li className="project-list">
             <h1>Certificates</h1>
-            <p>These are the certificates I have attained thus far.</p>
+            <p>These are the certificates I have attained thus far. Clicking on an individual certificate will take you to its validation page.</p>
           
             <ul>
               <Link href="/certificates">
