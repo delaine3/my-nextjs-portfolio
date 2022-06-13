@@ -41,19 +41,22 @@ body {
 }
 button:hover {
   opacity: 90%;
-  background-color: #ff9900;
+  background-color: rgb(209, 137, 3);
   color: aliceblue;
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
   padding: .3vw;
-  margin:.5vw;
+  margin-bottom:10%;
   background-color: #ffffffbd;
   border-radius: 1vw;
-  font-size: 2vw;
+  font-size: 3.5vw;
+}
+.project-name{
+  font-size: 3vw;
+  margin-bottom: 12%;
 
 }
-
 h1.delaine{
   font-size: 3vw;
 }
@@ -62,14 +65,14 @@ a:hover {
 }
 button a {
   font-weight: bold;
-  color: rgb(236, 154, 0);
+  color: rgb(209, 137, 3);
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 3.5vw;
 }
 
 h1 {
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
 }
 
 .certificate-list {
@@ -92,13 +95,15 @@ h1 {
 .project-list {
   display: inline-block;
   width: 300px;
+  padding: 1%;
   height: 400px;
-  overflow: hidden;
-  border: 1.25px solid rgb(233, 233, 233);
+  overflow:scroll;
+  border: 1.25px solid rgba(35, 69, 151, 0.684);
   border-radius: 16px;
   margin: 10px;
   box-shadow: 0 0 10px 5px var(--shadow);
   position: relative;
+  background-color: #ffffff91;
   
 }
 .project-list * {
