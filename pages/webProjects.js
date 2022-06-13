@@ -25,7 +25,7 @@ export default function WebProjects() {
           <h1> Name: Story Book </h1>
         
           <ul>
-              <Link href="/webProjects\storybook">
+              <Link href="webProjects\storybook">
                 <button>Find out more</button>
               </Link>
             <button>
@@ -43,7 +43,7 @@ export default function WebProjects() {
           <div className="main-content">
 
           <ul>
-          <Link href="/webProjects\memoryGame">
+          <Link href="webProjects\memoryGame">
                 <button>Find out more</button>
               </Link>
             <button>
@@ -65,7 +65,7 @@ export default function WebProjects() {
         <li className="project-list">
           <h1> Name: Pantry</h1>
           <ul>
-           <Link href="/webProjects\pantry">
+           <Link href="webProjects\pantry">
                 <button>Find out more</button>
               </Link>
           <div>

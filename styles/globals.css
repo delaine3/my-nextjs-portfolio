@@ -14,7 +14,6 @@ body {
     rgb(126, 222, 252) 55%,
     rgb(113, 209, 238) 65%
   );
-  font-size: x-large;
 }
 
 
@@ -73,12 +72,13 @@ h1 {
   font-size: 1.5vw;
 }
 
-
 .certificate-list {
   list-style: none;
   float: center;
-  padding: 1.5vw;
+  padding: 2.5vw;
+  width: 90%;
   text-align: center;
+  margin: auto;
 }
 #project{
   list-style:circle;
@@ -89,18 +89,6 @@ h1 {
 
 }
 
-
-
-.project-list:hover {
-  color: #080808;
-  box-shadow: 0 0 1vw 1vw #ff69c5;
-  background: radial-gradient(
-    at 0% 10%,
-    rgba(157, 238, 252, 0.719) 10%,
-    rgba(82, 230, 253, 0.719) 50%,
-    #aef6ff9d 71%
-  );
-}
 .project-list {
   display: inline-block;
   width: 300px;
@@ -111,7 +99,7 @@ h1 {
   margin: 10px;
   box-shadow: 0 0 10px 5px var(--shadow);
   position: relative;
-  font-size: 100%;
+  
 }
 .project-list * {
   margin: 0;
