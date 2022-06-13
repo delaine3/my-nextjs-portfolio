@@ -17,14 +17,14 @@ export default function WebProjects() {
       </Link>
       <div className="">
         <h1 className="delaine">Delaines Portfolio</h1>
-        <h1>
+        <p>
           Hi, my name is Delaine. Welcome To my portfolio. All projects listed
           here are web projects. If you click on the (Go to web app) button of
           each project you will be directed to a working version of it. It will
           most likely be hosted on Heroku or Vercel. All images used are either
           in the public domain or require attribution. If attribution is
           required it will be visible in the page inwhich the image is used.
-        </h1>
+        </p>
         <ul className="tile-list">
           <li className="project-list">
             <div className="main-content">

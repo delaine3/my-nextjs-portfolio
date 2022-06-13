@@ -16,7 +16,6 @@ body {
   );
 }
 
-
 * {
   font-family: "Source Sans Pro", sans-serif;
   box-sizing: border-box;
@@ -30,17 +29,17 @@ body {
   margin: auto;
   width: 90%;
 }
-.tile-list{
+.tile-list {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   width: 90%;
 }
-.tile-list li{
+.tile-list li {
   list-style: none;
 }
-.home{
-  margin-left:40%;
+.home {
+  margin-left: 40%;
   width: fit-content;
 }
 button:hover {
@@ -50,20 +49,19 @@ button:hover {
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 button {
-  padding: .3vw;
-  margin-bottom:10%;
+  padding: 0.3vw;
+  margin-bottom: 10%;
   background-color: #ffffffbd;
   border-radius: 1vw;
-  font-size: 3.5vw;
+  font-size: 15px;
 }
-.project-name{
-  font-size: 3vw;
+.project-name {
+  font-size: 20px;
   margin-bottom: 12%;
-
 }
 
-h1.delaine{
-  font-size: 3vw;
+h1.delaine {
+  font-size: 20px;
 }
 a:hover {
   color: #ffffff;
@@ -72,48 +70,43 @@ button a {
   font-weight: bold;
   color: rgb(209, 137, 3);
   text-decoration: none;
-  font-size: 3.5vw;
+  font-size: 15px;
 }
 
 h1 {
   text-align: center;
-  font-size: 3.5vw;
-margin: auto;
-
-padding-left: 5%;}
+  font-size: 15px;
+  margin: auto;
+  padding-left: 5%;
+}
 
 .certificate-list {
   list-style: none;
   float: center;
-  padding: 2.5vw;
+  padding: 1%;
   width: 90%;
   margin-left: 10%;
   margin-right: 10%;
-
-
 }
-#project{
-  list-style:circle;
-
+#project {
+  list-style: circle;
 }
-.webProjects li{
-  list-style:none;
-
+.webProjects li {
+  list-style: none;
 }
 
 .project-list {
   display: inline-block;
   width: 300px;
-  padding: 1%;
+  padding: 10%;
   height: 400px;
-  overflow:scroll;
+  overflow: scroll;
   border: 1.25px solid rgba(35, 69, 151, 0.684);
   border-radius: 16px;
   margin: 10px;
   box-shadow: 0 0 10px 5px var(--shadow);
   position: relative;
   background-color: #ffffff91;
-  
 }
 .project-list * {
   margin: 0;
