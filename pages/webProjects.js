@@ -15,11 +15,13 @@ export default function WebProjects() {
     <Link href="/">
           <button>Home</button>
         </Link>
-    <div className="webProjects">
+    <div className="">
 <h1 className="delaine" >Delaines Portfolio</h1>
       <h1>Hi, my name is Delaine. Welcome To my portfolio. All projects listed here are web projects. If you click on the (Go to web app) button of each project you will be directed to a working version of it. It will most likely be hosted on Heroku or Vercel. All images used are either in the public domain or require attribution. If attribution is required it will be visible in the page inwhich the image is used.</h1>
       <ul className="tile-list">
         <li className="project-list">
+        <div className="main-content">
+
           <h1> Name: Story Book </h1>
         
           <ul>
@@ -34,9 +36,12 @@ export default function WebProjects() {
               <a href="https://github.com/delaine3/dayDream"> Source Code</a>
             </button>
           </ul>
+          </div>
         </li>
         <li className="project-list">
           <h1> Name: Memory Game </h1>
+          <div className="main-content">
+
           <ul>
           <Link href="/webProjects\memoryGame">
                 <button>Find out more</button>
@@ -55,6 +60,7 @@ export default function WebProjects() {
               </a>
             </button>
           </ul>
+          </div>
         </li>
         <li className="project-list">
           <h1> Name: Pantry</h1>
