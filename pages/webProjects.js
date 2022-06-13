@@ -21,19 +21,11 @@ export default function WebProjects() {
       <ul className="tile-list">
         <li className="project-list">
           <h1> Name: Story Book </h1>
-          <p>
-            This is app allows you to create and save characters, plots and
-            perform writing excercises through helpful prompts.
-            <h3>Technologies used:</h3>
-            <ul >
-              <li id="project"s>MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NextJS</li>
-              <li id="project">NodeJS</li>
-            </ul>{" "}
-          </p>
+        
           <ul>
+              <Link href="/webProjects\storybook">
+                <button>Find out more</button>
+              </Link>
             <button>
               {" "}
               <a href="https://day-dream.vercel.app/"> Go to web app </a>{" "}
@@ -45,79 +37,33 @@ export default function WebProjects() {
         </li>
         <li className="project-list">
           <h1> Name: Memory Game </h1>
-          <p>
-            In this game the player has to turn over different tiles and try
-            to find matching tiles. They get a point every time they uncover a
-            matching pair and lose half a point if their pair does not match.
-            If they win the game, they can input their name and save their score.
-            The scores on the leader board are arranged alphabetically.
-            <p>
-                {" "}
-                Some of the ideas from this game are adapted from the
-                the following
-                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                  FreeCodeCamp Tutorial Video.
-                </a>{" "}
-                You can find the original source code of this tutorial in the
-                following
-                <a href="https://github.com/kubowania/memory-game">
-                  Github repo
-                </a>{" "}
-                The original source contains an MIT license which allows
-                anyone to use it. The game in the{" "}
-                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                  FreeCodeCamp Tutorial Video
-                </a>{" "}
-                is made using Vanilla Javascript and minimal css. Mine is
-                created using the technologies below.
-              </p>
-            <h3>Technologies used:</h3>
-            <ul>
-              <li id="project">MongoDB</li>
-              <li id="project">Express</li>
-              <li id="project">ReactJS</li>
-              <li id="project">NodeJS</li>
-              <li id="project">NextJS</li>
-            </ul>{" "}
-          </p>
           <ul>
+          <Link href="/webProjects\memoryGame">
+                <button>Find out more</button>
+              </Link>
             <button>
               {" "}
               <a href="https://a-memory-game-seven.vercel.app/">
                 {" "}
-                Go to Delaines version of the game{" "}
+                Go to web app{" "}
               </a>{" "}
             </button>
             <button>
               <a href="https://github.com/delaine3/A_Memory_Game">
                 {" "}
-                Go to Delaines Source Code
+                Go to source code
               </a>
             </button>
           </ul>
         </li>
         <li className="project-list">
           <h1> Name: Pantry</h1>
-          <p>
-            This is app that allows you to create a shopping list aswell
-            as take inventory of your current food supply. This app also lets
-            you know which foods are expired and which foods are near
-            expiration. It is seperated into 2 tabs: shopping list and pantry.
-            For both the shopping list and pantry sections, you can add food
-            into your list by filling out a form. Please click on the button
-            below to view and use the app.
-            <p>
-              <h3>Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">ReactJS</li>
-                <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
-              </ul>{" "}
-            </p>
-          </p>
+          <ul>
+           <Link href="/webProjects\pantry">
+                <button>Find out more</button>
+              </Link>
           <div>
+         
             <button>
               <a href="https://pantry-dusky.vercel.app/">Go to web app</a>
             </button>
@@ -126,6 +72,7 @@ export default function WebProjects() {
               <a href="https://github.com/delaine3/Pantry"> Source Code</a>
             </button>
           </div>
+          </ul>
         </li>
         <li className="project-list">
           <h1> Name: My Portfolio</h1>
@@ -177,7 +124,7 @@ export default function WebProjects() {
         <li className="project-list">
           <h1> Name: Calculator </h1>
           <p>
-            This app allows you to add, subtract, multiply and divclassNamee
+            This app allows you to add, subtract, multiply and divide
             numbers. It has an interactive colorful UI.
             <p>
               <h3>Technologies used:</h3>
@@ -232,42 +179,10 @@ export default function WebProjects() {
         </li>
         <li className="project-list">
           <h1> Name: Wack a mole game </h1>
-          <p>
-            This a timed wack a mole game. Players are given a minute to wack
-            as many moles as they can. During the game, they may pause and
-            resume the game. After the game is over they are presented with a
-            form that allows them to save their progress.
-            <p>
-              {" "}
-              Some of the code and or ideas from my game are adapted from the
-              following
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video.
-              </a>{" "}
-              You can find the original source code of this tutorial in the
-              following
-              <a href="https://github.com/kubowania/whac-a-mole">
-                Github repo
-              </a>{" "}
-              The original source contains an MIT license which allows anyone
-              to use it. The game in the{" "}
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video
-              </a>{" "}
-              is made using vanilla javascript and minimal css. Mine is
-              created using the technologies below.
-            </p>
-            <p>
-              <h3>Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">ReactJS</li>
-                <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
-              </ul>{" "}
-            </p>
-          </p>
+          <ul>
+          <Link href="/webProjects\wackAMole">
+                <button>Find out more</button>
+              </Link>
           <button>
             <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
             Go to Delaines version of the game
@@ -278,6 +193,7 @@ export default function WebProjects() {
             Go to Delaines source code
             </a>
           </button>
+          </ul>
         </li>
         <li className="project-list">
           <h1> Name: Random Quote Generator </h1>
@@ -304,43 +220,9 @@ export default function WebProjects() {
         </li>
         <li className="project-list">
           <h1> Name: Connect 4 game </h1>
-          <p>
-            This a timed connect 4 game. Players are given a minute to connect
-            4 dots in a vertical, horizontal or diagonal line. The first
-            player to connect 4 dots wins. If no player connects 4 dots within
-            the alloted time, the game ends in a draw. The result of the game
-            is saved upon completion.
-            <p>
-              <p>
-                {" "}
-                Some of the code and or ideas from my game are adapted from the
-                the following
-                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                  FreeCodeCamp Tutorial Video.
-                </a>{" "}
-                You can find the original source code of this tutorial in the
-                following
-                <a href="https://github.com/kubowania/connect-four">
-                  Github repo
-                </a>{" "}
-                The original source contains an MIT license which allows
-                anyone to use it. The game in the{" "}
-                <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                  FreeCodeCamp Tutorial Video
-                </a>{" "}
-                is made using Vanilla Javascript and minimal css. Mine is
-                created using the technologies below.
-              </p>
-              <h3>Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">ReactJS</li>
-                <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
-              </ul>{" "}
-            </p>
-          </p>
+          <Link href="/webProjects\connectFour">
+                <button>Find out more</button>
+              </Link>
           <button>
             <a href="https://connect-four-game.vercel.app/"> Go to Delaines version of the game</a>
           </button>
@@ -384,40 +266,10 @@ export default function WebProjects() {
         </li>
         <li className="project-list">
           <h1> Name:Snake game </h1>
-          <p>
-            This a snake game. The goal is to direct a snake using the up, down, left and right arrows to food withouth hitting the boundaries of the box. After the game is over the player is presented with a
-            form that allows them to save their score. There is also a page that contains a leaderboard, containing the scores of other players in descending order.
-            <p>
-              {" "}
-              Some of the code and ideas from my game are adapted from the
-              following
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video.
-              </a>{" "}
-              You can find the original source code of this tutorial in the
-              following
-              <a href="https://github.com/kubowania/Nokia3310-Snake">
-                Github repo
-              </a>{" "}
-              The original source contains an MIT license which allows anyone
-              to use it. The game in the{" "}
-              <a href="https://www.youtube.com/watch?v=lhNdUVh3qCc&t=3s">
-                FreeCodeCamp Tutorial Video
-              </a>{" "}
-              is made using vanilla javascript and minimal css. Mine is
-              created using the technologies below.
-            </p>
-            <p>
-              <h3>Technologies used:</h3>
-              <ul>
-                <li id="project">MongoDB</li>
-                <li id="project">Express</li>
-                <li id="project">ReactJS</li>
-                <li id="project">NodeJS</li>
-                <li id="project">NextJS</li>
-              </ul>{" "}
-            </p>
-          </p>
+<ul>
+<Link href="/webProjects\snakeGame">
+                <button>Find out more</button>
+              </Link>
           <button>
             <a href="https://snake-game-five-dun.vercel.app/">
             Go to Delaines version of the game
@@ -428,6 +280,7 @@ export default function WebProjects() {
             Go to Delaines source code
             </a>
           </button>
+          </ul>
         </li>
         <li className="project-list">
           <h1> Name: Timer App </h1>

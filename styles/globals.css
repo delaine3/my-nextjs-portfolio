@@ -61,7 +61,13 @@ body {
   padding: 5%;
   position: relative;
 }
-  
+.project-page{
+  background-color: #ffffffb3;
+  border: 0.5vw solid #a0a0a0;
+  border-radius: 1vw;
+  width: 70%;
+  margin: auto;
+}
 }
 * {
   font-family: "Source Sans Pro", sans-serif;
