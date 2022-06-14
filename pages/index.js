@@ -14,7 +14,7 @@ export default function Index() {
       </Head>
       <div>
         <h1 className="delaine">Delaine Abner</h1>
-        <h1>Hi, my name is Delaine. Welcome To my portfolio.</h1>
+        <h1>Hi, my name is Delaine. Welcome to my portfolio.</h1>
         <ul className="center">
           <li className="project-list">
             <h1>Certificates</h1>
