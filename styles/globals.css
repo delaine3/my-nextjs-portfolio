@@ -105,6 +105,12 @@ h1 {
 .webProjects li {
   list-style: none;
 }
+#webapps-index{
+  width: 45%;
+}
+#certificates-index{
+  width: 45%;
+}
 .project-page{
   width: 50%;
   margin: auto;

@@ -15,18 +15,25 @@ export default function Index() {
       <div>
         <h1 className="delaine">Delaine Abner</h1>
         <h1>Hi, my name is Delaine. Welcome to my portfolio.</h1>
-        <ul className="center">
-          <li className="project-list">
+        <ul className="tile-list">
+          <li id="certificates-index" className="project-list">
             <h1>Certificates</h1>
-            <p>These are the certificates I have attained thus far. Clicking on an individual certificate will take you to its validation page.</p>
-          
+            <p>These are the certificates I have attained thus far. They concern the following technologies.</p>
+            <ul>
+              <li id="project">C#</li>
+              <li id="project">Javascript</li>
+              <li id="project">AWS</li>
+              <li id="project">MongoDB</li>
+              <li id="project">NodeJS</li>
+              
+            </ul>
             <ul>
               <Link href="/certificates">
                 <button>Certificates</button>
               </Link>
             </ul>
           </li>
-          <li className="project-list">
+          <li id="webapps-index" className="project-list">
             <h1>Web Apps</h1>
             <p>These are projects that I have worked on. They are built using a combination of the following technologies. </p>
             <ul>

@@ -54,12 +54,12 @@ export default function SnakeGame() {
           </p>
           <button>
             <a href="https://snake-game-five-dun.vercel.app/">
-            Go to Delaines version of the game
+            Go to Delaine&rsquo;s version of the game
             </a>
           </button>
           <button>
             <a href="https://github.com/delaine3/snake_game">
-            Go to Delaines source code
+            Go to Delaine&rsquo;s source code
             </a>
           </button>
       </div>

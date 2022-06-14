@@ -12,11 +12,12 @@ export default function WebProjects() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <h1 className="delaine">Delaine Abner</h1>
+
       <Link href="/">
       <button className="home">Home</button>
       </Link>
       <div className="">
-        <h1 className="delaine">Delaines Portfolio</h1>
         <p className="blurb">
           Hi, my name is Delaine. Welcome To my portfolio. All projects listed
           here are web projects. If you click on the (Go to web app) button of
@@ -228,12 +229,12 @@ export default function WebProjects() {
             </Link>
             <button>
               <a href="https://whack-a-mole-4jvxtc469-delaine3.vercel.app/newPlayer">
-                Go to Delaines version of the game
+                Go to Delaine&rsquo;s version of the game
               </a>
             </button>
             <button>
               <a href="https://github.com/delaine3/whack_a_mole">
-                Go to Delaines source code
+                Go to Delaine&rsquo;s source code
               </a>
             </button>
             </div>
@@ -280,12 +281,12 @@ export default function WebProjects() {
             <button>
               <a href="https://connect-four-game.vercel.app/">
                 {" "}
-                Go to Delaines version of the game
+                Go to Delaine&rsquo;s version of the game
               </a>
             </button>
             <button>
               <a href="https://github.com/delaine3/Connect_Four_Game">
-                Go to Delaines source code
+                Go to Delaine&rsquo;s source code
               </a>
             </button>
             </div>
@@ -340,12 +341,12 @@ export default function WebProjects() {
               </Link>
               <button>
                 <a href="https://snake-game-five-dun.vercel.app/">
-                  Go to Delaines version of the game
+                  Go to Delaine&rsquo;s version of the game
                 </a>
               </button>
               <button>
                 <a href="https://github.com/delaine3/snake_game">
-                  Go to Delaines source code
+                  Go to Delaine&rsquo;s source code
                 </a>
               </button>
               </div>

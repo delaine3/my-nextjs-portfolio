@@ -57,12 +57,12 @@ export default function ConnectFour() {
         <button>
           <a href="https://connect-four-game.vercel.app/">
             {" "}
-            Go to Delaines version of the game
+            Go to Delaine&rsquo;s version of the game
           </a>
         </button>
         <button>
           <a href="https://github.com/delaine3/Connect_Four_Game">
-            Go to Delaines source code
+            Go to Delaine&rsquo;s source code
           </a>
         </button>
       </div>

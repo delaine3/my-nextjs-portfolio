@@ -56,13 +56,13 @@ export default function MemoryGame() {
             {" "}
             <a href="https://a-memory-game-seven.vercel.app/">
               {" "}
-              Go to Delaines version of the game{" "}
+              Go to Delaine&rsquo;s version of the game{" "}
             </a>{" "}
           </button>
           <button>
             <a href="https://github.com/delaine3/A_Memory_Game">
               {" "}
-              Go to Delaines Source Code
+              Go to Delaine&rsquo;s Source Code
             </a>
           </button>
         </ul>
