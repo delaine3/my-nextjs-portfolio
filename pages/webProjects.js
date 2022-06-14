@@ -17,7 +17,7 @@ export default function WebProjects() {
       </Link>
       <div className="">
         <h1 className="delaine">Delaines Portfolio</h1>
-        <p>
+        <p className="blurb">
           Hi, my name is Delaine. Welcome To my portfolio. All projects listed
           here are web projects. If you click on the (Go to web app) button of
           each project you will be directed to a working version of it. It will
