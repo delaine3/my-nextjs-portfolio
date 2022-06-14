@@ -28,7 +28,7 @@ export default function WebProjects() {
         <ul className="tile-list">
           <li className="project-list">
             <div className="main-content">
-              <h1 className="project-name"> Name: Story Book </h1>
+              <h1 className="project-name">Story Book </h1>
               <div id="project-links">
 
               <Link href="webProjects/storybook">
@@ -46,7 +46,7 @@ export default function WebProjects() {
           </li>
           <li className="project-list">
             <div className="main-content">
-            <h1 className="project-name"> Name: Memory Game </h1>
+            <h1 className="project-name"> Memory Game </h1>
             <div id="project-links">
               <Link href="webProjects\memoryGame">
                 <button >Find out more</button>
@@ -70,7 +70,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Pantry</h1>
+            <h1 className="project-name">Pantry</h1>
             <div id="project-links">
             <Link href="webProjects\pantry">
               <button >Find out more</button>
@@ -89,7 +89,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: My Portfolio</h1>
+            <h1 className="project-name">My Portfolio</h1>
             <div id="project-links">
 
             <p>
@@ -115,7 +115,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Text Formatter</h1>
+            <h1 className="project-name">Text Formatter</h1>
             <div id="project-links">
 
             <p>
@@ -146,7 +146,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Calculator </h1>
+            <h1 className="project-name">Calculator </h1>
             <div id="project-links">
 
             <p>
@@ -174,7 +174,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Name: Drum Machine </h1>
+            <h1 className="project-name">Drum Machine </h1>
             <div id="project-links">
 
             <p>
@@ -198,7 +198,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Markdown Preview </h1>
+            <h1 className="project-name">Markdown Preview </h1>
             <div id="project-links">
 
             <p>
@@ -220,7 +220,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Wack a mole game </h1>
+            <h1 className="project-name">Wack a mole game </h1>
             <div id="project-links">
 
             <Link href="/webProjects\wackAMole">
@@ -242,7 +242,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Random Quote Generator </h1>
+            <h1 className="project-name">Random Quote Generator </h1>
             <div id="project-links">
 
             <div>
@@ -271,7 +271,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Connect 4 game </h1>
+            <h1 className="project-name">Connect 4 game </h1>
             <div id="project-links">
 
             <Link href="/webProjects\connectFour">
@@ -294,7 +294,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Name: Achievement Tracker </h1>
+            <h1 className="project-name">Achievement Tracker </h1>
             <div id="project-links">
 
             <div>
@@ -332,7 +332,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name:Snake game </h1>
+            <h1 className="project-name">Snake game </h1>
             <div id="project-links">
 
               <Link href="/webProjects\snakeGame">
@@ -354,7 +354,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name"> Name: Timer App </h1>
+            <h1 className="project-name">Timer App </h1>
             <div id="project-links">
 
             <div>
@@ -388,7 +388,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Name: Simple website.</h1>
+            <h1 className="project-name">Simple website.</h1>
             <div id="project-links">
 
             <div>
@@ -420,7 +420,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Name: Simple survey form website.</h1>
+            <h1 className="project-name">Simple survey form website.</h1>
             <div id="project-links">
 
             <div>
