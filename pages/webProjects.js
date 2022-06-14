@@ -90,6 +90,8 @@ export default function WebProjects() {
           <div className="main-content">
 
             <h1 className="project-name"> Name: My Portfolio</h1>
+            <div id="project-links">
+
             <p>
               This is the site that you are currently on.
               <p>
@@ -108,11 +110,14 @@ export default function WebProjects() {
               </a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Text Formatter</h1>
+            <div id="project-links">
+
             <p>
               This site was created for people who are trying to clean data. It
               allows the user to remove charachters, seperate words by
@@ -136,11 +141,14 @@ export default function WebProjects() {
               </button>
             </div>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Calculator </h1>
+            <div id="project-links">
+
             <p>
               This app allows you to add, subtract, multiply and divide numbers.
               It has an interactive colorful UI.
@@ -161,11 +169,14 @@ export default function WebProjects() {
               <a href="https://github.com/delaine3/calculator"> Source Code</a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name">Name: Drum Machine </h1>
+            <div id="project-links">
+
             <p>
               This app allows you to play drum sounds using an interactive ui.
               <p>
@@ -182,11 +193,14 @@ export default function WebProjects() {
               </a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Markdown Preview </h1>
+            <div id="project-links">
+
             <p>
               This app allows you to type text and view it as a formatted
               preview.
@@ -201,11 +215,14 @@ export default function WebProjects() {
               <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to app</a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Wack a mole game </h1>
+            <div id="project-links">
+
             <Link href="/webProjects\wackAMole">
               <button>Find out more</button>
             </Link>
@@ -220,11 +237,14 @@ export default function WebProjects() {
               </a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Random Quote Generator </h1>
+            <div id="project-links">
+
             <div>
               <p>
                 This is an app allows you to generate random quotes and change
@@ -246,11 +266,14 @@ export default function WebProjects() {
               </button>
             </ul>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Connect 4 game </h1>
+            <div id="project-links">
+
             <Link href="/webProjects\connectFour">
               <button>Find out more</button>
             </Link>
@@ -266,11 +289,14 @@ export default function WebProjects() {
               </a>
             </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name">Name: Achievement Tracker </h1>
+            <div id="project-links">
+
             <div>
               <p>
                 This is an app allows you to input and save your daily
@@ -301,11 +327,14 @@ export default function WebProjects() {
               </button>
             </ul>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name:Snake game </h1>
+            <div id="project-links">
+
               <Link href="/webProjects\snakeGame">
                 <button>Find out more</button>
               </Link>
@@ -320,11 +349,14 @@ export default function WebProjects() {
                 </a>
               </button>
               </div>
+              </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name"> Name: Timer App </h1>
+            <div id="project-links">
+
             <div>
               <p>
                 This is an app similar to the pomodoro timer. Users can set a
@@ -351,11 +383,14 @@ export default function WebProjects() {
               </button>
             </ul>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name">Name: Simple website.</h1>
+            <div id="project-links">
+
             <div>
               <p>
                 This is simple website created using simple HTML and CSS. All
@@ -380,11 +415,14 @@ export default function WebProjects() {
               </button>
             </ul>
             </div>
+            </div>
           </li>
           <li className="project-list">
           <div className="main-content">
 
             <h1 className="project-name">Name: Simple survey form website.</h1>
+            <div id="project-links">
+
             <div>
               <p>
                 This is simple survey form website created using simple HTML and
@@ -405,6 +443,7 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
             </div>
           </li>
         </ul>
