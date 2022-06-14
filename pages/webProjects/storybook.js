@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 //This is a function that displays my web apps
-export default function WebProjects() {
+export default function Storybook() {
   return (
     <div className="center">
       <Head>

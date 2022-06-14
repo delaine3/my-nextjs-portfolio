@@ -29,27 +29,29 @@ export default function WebProjects() {
           <li className="project-list">
             <div className="main-content">
               <h1 className="project-name"> Name: Story Book </h1>
+              <div id="project-links">
 
-              <Link href="webProjects\storybook">
+              <Link href="webProjects/storybook">
                 <button>Find out more</button>
               </Link>
-              <button>
+              <button >
                 {" "}
                 <a href="https://day-dream.vercel.app/"> Go to web app </a>{" "}
-              </button>
-              <button>
+              </button >
+              <button >
                 <a href="https://github.com/delaine3/dayDream"> Source Code</a>
               </button>
+              </div>
             </div>
           </li>
           <li className="project-list">
             <div className="main-content">
             <h1 className="project-name"> Name: Memory Game </h1>
-
+            <div id="project-links">
               <Link href="webProjects\memoryGame">
-                <button>Find out more</button>
+                <button >Find out more</button>
               </Link>
-              <button>
+              <button >
                 {" "}
                 <a href="https://a-memory-game-seven.vercel.app/">
                   {" "}
@@ -62,24 +64,31 @@ export default function WebProjects() {
                   Go to source code
                 </a>
               </button>
+              </div>
             </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Pantry</h1>
+            <div id="project-links">
             <Link href="webProjects\pantry">
-              <button>Find out more</button>
+              <button >Find out more</button>
             </Link>
-            <div>
-              <button>
+           
+              <button >
                 <a href="https://pantry-dusky.vercel.app/">Go to web app</a>
               </button>
-              <button>
+              <button >
                 {" "}
                 <a href="https://github.com/delaine3/Pantry"> Source Code</a>
               </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: My Portfolio</h1>
             <p>
               This is the site that you are currently on.
@@ -98,8 +107,11 @@ export default function WebProjects() {
                 Source Code
               </a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Text Formatter</h1>
             <p>
               This site was created for people who are trying to clean data. It
@@ -123,8 +135,11 @@ export default function WebProjects() {
                 </a>
               </button>
             </div>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Calculator </h1>
             <p>
               This app allows you to add, subtract, multiply and divide numbers.
@@ -145,8 +160,11 @@ export default function WebProjects() {
             <button>
               <a href="https://github.com/delaine3/calculator"> Source Code</a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name">Name: Drum Machine </h1>
             <p>
               This app allows you to play drum sounds using an interactive ui.
@@ -163,8 +181,11 @@ export default function WebProjects() {
                 Go to app
               </a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Markdown Preview </h1>
             <p>
               This app allows you to type text and view it as a formatted
@@ -179,8 +200,11 @@ export default function WebProjects() {
             <button>
               <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to app</a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Wack a mole game </h1>
             <Link href="/webProjects\wackAMole">
               <button>Find out more</button>
@@ -195,8 +219,11 @@ export default function WebProjects() {
                 Go to Delaines source code
               </a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Random Quote Generator </h1>
             <div>
               <p>
@@ -218,8 +245,11 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Connect 4 game </h1>
             <Link href="/webProjects\connectFour">
               <button>Find out more</button>
@@ -235,8 +265,11 @@ export default function WebProjects() {
                 Go to Delaines source code
               </a>
             </button>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name">Name: Achievement Tracker </h1>
             <div>
               <p>
@@ -267,8 +300,11 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name:Snake game </h1>
               <Link href="/webProjects\snakeGame">
                 <button>Find out more</button>
@@ -283,8 +319,11 @@ export default function WebProjects() {
                   Go to Delaines source code
                 </a>
               </button>
+              </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name"> Name: Timer App </h1>
             <div>
               <p>
@@ -311,8 +350,11 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name">Name: Simple website.</h1>
             <div>
               <p>
@@ -337,8 +379,11 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
           </li>
           <li className="project-list">
+          <div className="main-content">
+
             <h1 className="project-name">Name: Simple survey form website.</h1>
             <div>
               <p>
@@ -360,6 +405,7 @@ export default function WebProjects() {
                 </a>
               </button>
             </ul>
+            </div>
           </li>
         </ul>
       </div>
