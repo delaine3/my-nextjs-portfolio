@@ -13,7 +13,7 @@ export default function SnakeGame() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Link href="/">
-        <button>Home</button>
+      <button className="home">Home</button>
       </Link>
       <div className="project-page">
       <h1 className="delaine">Snake game </h1>

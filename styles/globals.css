@@ -49,8 +49,8 @@ body {
 }
 button:hover {
   opacity: 90%;
-  background-color: rgb(209, 137, 3);
-  color: aliceblue;
+  background-color: rgb(246, 242, 208);
+  color: rgb(2, 83, 154);
   box-shadow: 0 0 1vw 1vw rgba(255, 255, 255, 0.7);
 }
 #project-links{
@@ -71,7 +71,11 @@ h1.delaine {
   font-size: 20px;
 }
 a:hover {
-  color: #ffffff;
+  color: #07c2d3;
+}
+
+a{
+  color: #e400c9;
 }
 button a {
   font-weight: bold;
@@ -114,7 +118,7 @@ h1 {
   width: 300px;
   padding: 10%;
   height: 400px;
-  overflow: scroll;
+  overflow-wrap: break-word;
   border: 1.25px solid rgba(35, 69, 151, 0.684);
   border-radius: 16px;
   margin: 10px;

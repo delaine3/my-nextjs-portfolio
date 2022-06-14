@@ -13,9 +13,9 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div>
-        <h1 className="delaine">Delaine Abner : Portfolio</h1>
+        <h1 className="delaine">Delaine Abner</h1>
         <h1>Hi, my name is Delaine. Welcome To my portfolio.</h1>
-        <ul className="">
+        <ul className="center">
           <li className="project-list">
             <h1>Certificates</h1>
             <p>These are the certificates I have attained thus far. Clicking on an individual certificate will take you to its validation page.</p>

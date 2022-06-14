@@ -395,6 +395,7 @@ export default function WebProjects() {
               <p>
                 This is simple website created using simple HTML and CSS. All
                 information in the paragraphs was copied verbatim from
+                <br/>
                 <a>
                   https://time.com/collection/guclassNamee-to-happiness/4791285/bond-with-people/
                 </a>
