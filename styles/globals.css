@@ -70,7 +70,9 @@ button:hover {
 }
 
 button {
-  padding: 0.3vw;
+  
+  padding: 1.3vw;
+  margin: 1%;
   background-color: #ffffffbd;
   border-radius: 1vw;
   font-size: 15px;
@@ -148,7 +150,7 @@ h1 {
   min-width:min-content;
   display: inline-block;
   width: 300px;
-  padding: 10%;
+  padding: 1%;
   height: 400px;
   overflow-wrap: break-word;
   border: 1.25px solid rgba(35, 69, 151, 0.684);

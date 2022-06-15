@@ -24,7 +24,6 @@ export default function Index() {
               <li id="project">Javascript</li>
               <li id="project">AWS</li>
               <li id="project">MongoDB</li>
-              <li id="project">NodeJS</li>
               
             </ul>
             <ul>

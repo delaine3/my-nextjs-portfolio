@@ -31,7 +31,6 @@ export default function WebProjects() {
             <div className="main-content">
               <h1 className="project-name">Story Book </h1>
               <div id="project-links">
-
               <Link href="webProjects/storybook">
                 <button>Find out more</button>
               </Link>
