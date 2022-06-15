@@ -121,11 +121,13 @@ export default function WebProjects() {
 
             <p>
               This site was created for people who are trying to clean data. It
-              allows the user to remove charachters, seperate words by
-              charachter, enclose strings in characters and remove duplicates.
+              allows the user to remove characters, separate words by
+              character, enclose strings in characters, and remove duplicates.
               <p>
-                <h3>Technologies used:</h3>
-                <p id="project">React</p>
+              <ul>
+                  <li id="project">ReactJS</li>
+                
+                </ul>{" "}
               </p>
             </p>
             <div>
@@ -151,8 +153,8 @@ export default function WebProjects() {
             <div id="project-links">
 
             <p>
-              This app allows you to add, subtract, multiply and divide numbers.
-              It has an interactive colorful UI.
+              This app allows you to add, subtract, multiply, and divide numbers.
+              It has an interactive and colorful UI.
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -179,7 +181,7 @@ export default function WebProjects() {
             <div id="project-links">
 
             <p>
-              This app allows you to play drum sounds using an interactive ui.
+              This app allows you to play drum sounds using an interactive UI.
               <p>
                 <h3>Technologies used:</h3>
                 <ul>
@@ -213,7 +215,7 @@ export default function WebProjects() {
               </p>
             </p>
             <button>
-              <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to app</a>
+              <a href="https://codepen.io/Delaine/pen/oNWOPyd">Go to codepen</a>
             </button>
             </div>
             </div>
@@ -221,7 +223,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Wack a mole game </h1>
+            <h1 className="project-name">Whack a Mole Game </h1>
             <div id="project-links">
 
             <Link href="/webProjects\wackAMole">
@@ -248,8 +250,8 @@ export default function WebProjects() {
 
             <div>
               <p>
-                This is an app allows you to generate random quotes and change
-                the application background
+                This app allows you to generate random quotes and change
+                the application background.
                 <p>
                   <h3>Technologies used:</h3>
                   <ul>
@@ -272,7 +274,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Connect 4 game </h1>
+            <h1 className="project-name">Connect 4 Game </h1>
             <div id="project-links">
 
             <Link href="/webProjects\connectFour">
@@ -300,7 +302,7 @@ export default function WebProjects() {
 
             <div>
               <p>
-                This is an app allows you to input and save your daily
+                This app allows you to input and save your daily
                 achievements to keep you motivated.
                 <p>
                   <h3>Technologies used:</h3>
@@ -333,7 +335,7 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Snake game </h1>
+            <h1 className="project-name">Snake Game </h1>
             <div id="project-links">
 
               <Link href="/webProjects\snakeGame">
@@ -360,8 +362,8 @@ export default function WebProjects() {
 
             <div>
               <p>
-                This is an app similar to the pomodoro timer. Users can set a
-                time to countdown from aswell as a break.
+                This app is similar to a pomodoro timer. Users can set a
+                countdown, aswell as schedule breaks.
                 <p>
                   <h3>Technologies used:</h3>
                   <ul>
@@ -389,12 +391,12 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Simple website.</h1>
+            <h1 className="project-name">Simple Website</h1>
             <div id="project-links">
 
             <div>
               <p>
-                This is simple website created using simple HTML and CSS. All
+                This is a website created using simple HTML and CSS. All
                 information in the paragraphs was copied verbatim from
                 <br/>
                 <a>
@@ -422,12 +424,12 @@ export default function WebProjects() {
           <li className="project-list">
           <div className="main-content">
 
-            <h1 className="project-name">Simple survey form website.</h1>
+            <h1 className="project-name"> Survey Form Website</h1>
             <div id="project-links">
 
             <div>
               <p>
-                This is simple survey form website created using simple HTML and
+                This is a survey form website created using simple HTML and
                 CSS.
                 <p>
                   <h3>Technologies used:</h3>
