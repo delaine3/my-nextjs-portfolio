@@ -19,13 +19,13 @@ export default function Index() {
           <span id="certificates-index" className="project-list">
             <h3>Certificates</h3>
             <p>These are the certificates I have attained thus far. They concern the following technologies.</p>
-            <ul>
+            <ol>
               <li id="project">C#</li>
               <li id="project">Javascript</li>
               <li id="project">AWS</li>
               <li id="project">MongoDB</li>
               
-            </ul>
+            </ol>
             <ul>
               <Link href="/certificates">
                 <button>Certificates</button>
@@ -35,14 +35,14 @@ export default function Index() {
           <span id="webapps-index" className="project-list">
             <h3>Web Apps</h3>
             <p>These are projects that I have worked on. They are built using a combination of the following technologies. </p>
-            <ul>
+            <ol >
               <li id="project">MongoDB</li>
               <li id="project">Express</li>
               <li id="project">ReactJS</li>
               <li id="project">NextJS</li>
               <li id="project">NodeJS</li>
               
-            </ul>{" "}
+            </ol>{" "}
             <ul>
               <Link href="/webProjects">
                 <button>Go To Web Apps</button>
