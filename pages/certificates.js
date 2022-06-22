@@ -6,7 +6,7 @@ export default function Certificates() {
     <div>
       <div className="certificates">
         <ul>
-          <li id="certificate-list">
+          <li className="certificate-list">
             <a href="https://freecodecamp.org/certification/skyflower/javascript-algorithms-and-data-structures">
               <img
                 src="https://i.ibb.co/SrFyWv8/Js-algorithms-and-data-structures.jpg"
