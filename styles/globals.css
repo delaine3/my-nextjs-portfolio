@@ -55,17 +55,6 @@ body {
   margin: auto;
 }
 
-.home {
-<<<<<<< HEAD
-  margin-left: 40px;
-  position: relative;
-=======
-  margin-left: 13%;
->>>>>>> parent of 9793393 (.)
-  width: 100px;
-  height: 50px;
-}
-
 button:hover {
   opacity: 90%;
   background-color: rgb(246, 242, 208);
