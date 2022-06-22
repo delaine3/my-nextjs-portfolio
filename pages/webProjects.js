@@ -13,10 +13,6 @@ export default function WebProjects() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <h1 className="delaine">Delaine Abner</h1>
-
-      <Link href="/">
-        <button className="home">Home</button>
-      </Link>
       <div>
         <p className="blurb">
           Hi, my name is Delaine. Welcome To my portfolio. All projects listed
@@ -26,6 +22,7 @@ export default function WebProjects() {
           in the public domain or require attribution. If attribution is
           required it will be visible in the page inwhich the image is used.
         </p>
+    
         <ul className="grid">
           <li className="project-list">
             <div className="main-content">

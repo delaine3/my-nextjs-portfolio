@@ -1,13 +1,9 @@
 import React from "react";
-import Link from "next/link";
 
 //This is a function that displays my web apps
 export default function Certificates() {
   return (
     <div>
-      <Link href="/">
-        <button className="home">Home</button>
-      </Link>
       <div className="certificates">
         <ul>
           <li id="certificate-list">

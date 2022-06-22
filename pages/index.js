@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-
 //This is a function that displays my web apps
 export default function Index() {
   return (
@@ -12,6 +11,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
       <div>
         <h1 className="delaine">Delaine Abner</h1>
         <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
