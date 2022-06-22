@@ -13,15 +13,11 @@ export default function WebProjects() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <h1 className="delaine">Delaine Abner</h1>
-<<<<<<< HEAD
-      <div>
-=======
 
       <Link href="/">
       <button className="home">Home</button>
       </Link>
       <div className="">
->>>>>>> parent of 9793393 (.)
         <p className="blurb">
           Hi, my name is Delaine. Welcome To my portfolio. All projects listed
           here are web projects. If you click on the (Go to web app) button of
@@ -30,12 +26,8 @@ export default function WebProjects() {
           in the public domain or require attribution. If attribution is
           required it will be visible in the page inwhich the image is used.
         </p>
-<<<<<<< HEAD
     
         <ul className="grid">
-=======
-        <ul className="tile-list">
->>>>>>> parent of 9793393 (.)
           <li className="project-list">
             <div className="main-content">
               <h1 className="project-name">Story Book </h1>
