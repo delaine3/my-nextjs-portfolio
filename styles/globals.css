@@ -70,11 +70,10 @@ button:hover {
 }
 
 button {
-  
-  padding: 1.3vw;
+  padding: 10px;
   margin: 1%;
   background-color: #ffffffbd;
-  border-radius: 1vw;
+  border-radius: 18px;
   font-size: 15px;
 }
 
@@ -84,7 +83,8 @@ button {
 }
 
 h1.delaine {
-  font-size: 20px;
+  font-size: 80px;
+  margin-right: 10%;
 }
 
 a:hover {
@@ -111,11 +111,9 @@ h1 {
 
 .certificate-list {
   list-style: none;
-  float: center;
-  padding: 1%;
-  width: 90%;
-  margin-left: 10%;
-  margin-right: 10%;
+align-items: flex-start; 
+ width: 350px;
+
 }
 
 #project {
@@ -128,12 +126,32 @@ h1 {
 
 #webapps-index{
   min-width:min-content;
-  width: 45%;
+  display: inline-block;
+  width: 300px;
+  padding: 1%;
+  height: 300px;
+  overflow-wrap: break-word;
+  border: 1.25px solid rgba(35, 69, 151, 0.684);
+  border-radius: 16px;
+  margin: 10px;
+  position: relative;
+  background-color: #ffffff91;
 }
-
+#index-tiles{
+display: inline-block;
+}
 #certificates-index{
   min-width:min-content;
-  width: 45%;
+  display: inline-block;
+  width: 300px;
+  padding: 1%;
+  height: 300px;
+  overflow-wrap: break-word;
+  border: 1.25px solid rgba(35, 69, 151, 0.684);
+  border-radius: 16px;
+  margin: 10px;
+  position: relative;
+  background-color: #ffffff91;
 }
 
 .project-page{
@@ -142,7 +160,7 @@ h1 {
   margin: auto;
   background-color: rgba(240, 248, 255, 0.788);
   padding: 3%;
-  border: 1.25px solid rgba(35, 69, 151, 0.684);
+  border: 1.25px solid rgba(35, 70, 151, 0.568);
   border-radius: 16px;
 }
 
@@ -153,10 +171,9 @@ h1 {
   padding: 1%;
   height: 400px;
   overflow-wrap: break-word;
-  border: 1.25px solid rgba(35, 69, 151, 0.684);
+  border: 1.25px solid rgba(35, 70, 151, 0.568);
   border-radius: 16px;
   margin: 10px;
-  box-shadow: 0 0 10px 5px var(--shadow);
   position: relative;
   background-color: #ffffff91;
 }
@@ -183,4 +200,11 @@ h1 {
 
 h2 {
   font-family: "Bubbler One", sans-serif;
+  margin:10px;
+
+}
+h3 {
+  font-family: "Bubbler One", sans-serif;
+  margin: auto;
+  text-align: center;
 }

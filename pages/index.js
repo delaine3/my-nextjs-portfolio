@@ -14,10 +14,10 @@ export default function Index() {
       </Head>
       <div>
         <h1 className="delaine">Delaine Abner</h1>
-        <h1>Hi, my name is Delaine. Welcome to my portfolio.</h1>
-        <ul className="tile-list">
-          <li id="certificates-index" className="project-list">
-            <h1>Certificates</h1>
+        <h2>Hi, my name is Delaine. Welcome to my portfolio.</h2>
+        <div className="grid">
+          <span id="certificates-index" className="project-list">
+            <h3>Certificates</h3>
             <p>These are the certificates I have attained thus far. They concern the following technologies.</p>
             <ul>
               <li id="project">C#</li>
@@ -31,9 +31,9 @@ export default function Index() {
                 <button>Certificates</button>
               </Link>
             </ul>
-          </li>
-          <li id="webapps-index" className="project-list">
-            <h1>Web Apps</h1>
+          </span>
+          <span id="webapps-index" className="project-list">
+            <h3>Web Apps</h3>
             <p>These are projects that I have worked on. They are built using a combination of the following technologies. </p>
             <ul>
               <li id="project">MongoDB</li>
@@ -48,8 +48,8 @@ export default function Index() {
                 <button>Go To Web Apps</button>
               </Link>
             </ul>
-          </li>
-        </ul>
+          </span>
+          </div>
       </div>
     </div>
   );
